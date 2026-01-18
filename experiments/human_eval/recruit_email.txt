@@ -1,0 +1,56 @@
+Subject: Paid ML Research Annotation - $50 for 2 hours
+
+Hi [Name],
+
+I'm conducting a research study on Retrieval-Augmented Generation (RAG) systems for an IEEE publication and need expert annotators to evaluate generated responses.
+
+**Details:**
+- **Time Commitment:** 2 hours (flexible schedule)
+- **Compensation:** $50 USD (gift card or PayPal)
+- **Task:** Rate 100 AI-generated responses on 5 criteria:
+  - Factuality (correctness)
+  - Relevance (addresses the query)
+  - Completeness (fully answers query)
+  - Fluency (well-written)
+  - Safety (appropriate content)
+- **Platform:** Online web interface (no installation needed)
+- **Requirements:** 
+  - ML/NLP background (student/researcher/practitioner)
+  - Fluent English
+  - Attention to detail
+
+**What You'll Do:**
+1. Access web interface at provided URL
+2. Register with annotator ID
+3. Review query-response pairs
+4. Rate each response on 5-point Likert scales
+5. Option to add comments
+
+**Why This Matters:**
+Your annotations will help validate our Bidirectional RAG system against baselines. This is critical for IEEE publication acceptance. Your contribution will be acknowledged in the paper.
+
+**Timeline:**
+- Reply by [DATE] if interested
+- Receive instructions and access credentials
+- Complete annotations within 1 week (flexible)
+- Receive compensation within 1 week of completion
+
+**Confidentiality:**
+All data is anonymized. Your personal information will not be published. Annotations are used only for research purposes.
+
+If interested, please reply with:
+- Your availability (preferred dates/times)
+- Preferred payment method (gift card type or PayPal)
+- Any questions
+
+Thank you for considering this opportunity!
+
+Best regards,
+[Your Name]
+[Your Email]
+[Your Affiliation]
+
+---
+
+**P.S.** This is a standard annotation task for NLP research. Similar tasks are common in the field and help advance the state of the art. Your contribution is valuable and appreciated!
+

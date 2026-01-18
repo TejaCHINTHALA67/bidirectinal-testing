@@ -1,0 +1,7045 @@
+{
+  "experiment": "naive_writeback",
+  "config": {
+    "write_back_enabled": true,
+    "acceptance_layer_enabled": false,
+    "initial_corpus_size": 4000
+  },
+  "checkpoints": [
+    {
+      "query_index": 250,
+      "corpus_size": 4198,
+      "model_generated": 198,
+      "coverage": 1.0
+    },
+    {
+      "query_index": 500,
+      "corpus_size": 4382,
+      "model_generated": 382,
+      "coverage": 1.0
+    },
+    {
+      "query_index": 750,
+      "corpus_size": 4565,
+      "model_generated": 565,
+      "coverage": 1.0
+    },
+    {
+      "query_index": 1000,
+      "corpus_size": 4758,
+      "model_generated": 758,
+      "coverage": 1.0
+    }
+  ],
+  "queries": [
+    {
+      "query_id": "query_0000",
+      "query": "What are Python generators?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1106
+    },
+    {
+      "query_id": "query_0001",
+      "query": "What is normalization?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 957
+    },
+    {
+      "query_id": "query_0002",
+      "query": "How to use subqueries?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 726
+    },
+    {
+      "query_id": "query_0003",
+      "query": "How to use list comprehensions?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 501
+    },
+    {
+      "query_id": "query_0004",
+      "query": "How to optimize SQL queries?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1048
+    },
+    {
+      "query_id": "query_0005",
+      "query": "How to use arrow functions?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 382
+    },
+    {
+      "query_id": "query_0006",
+      "query": "How to write a JOIN query?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 440
+    },
+    {
+      "query_id": "query_0007",
+      "query": "How to prevent SQL injection?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1099
+    },
+    {
+      "query_id": "query_0008",
+      "query": "How to view commit history?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 807
+    },
+    {
+      "query_id": "query_0009",
+      "query": "What are Python generators?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 737
+    },
+    {
+      "query_id": "query_0010",
+      "query": "What is normalization?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 914
+    },
+    {
+      "query_id": "query_0011",
+      "query": "How to use async/await?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 340
+    },
+    {
+      "query_id": "query_0012",
+      "query": "How to write a JOIN query?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 678
+    },
+    {
+      "query_id": "query_0013",
+      "query": "What is the difference between == and is?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 747
+    },
+    {
+      "query_id": "query_0014",
+      "query": "How to view commit history?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 880
+    },
+    {
+      "query_id": "query_0015",
+      "query": "How to create a virtual environment?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 968
+    },
+    {
+      "query_id": "query_0016",
+      "query": "How to deep clone an object?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 1063
+    },
+    {
+      "query_id": "query_0017",
+      "query": "What is the GIL in Python?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1398
+    },
+    {
+      "query_id": "query_0018",
+      "query": "What is the difference between == and is?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 811
+    },
+    {
+      "query_id": "query_0019",
+      "query": "How to use arrow functions?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 587
+    },
+    {
+      "query_id": "query_0020",
+      "query": "How to handle exceptions in Python?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1060
+    },
+    {
+      "query_id": "query_0021",
+      "query": "What are promises in JavaScript?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1263
+    },
+    {
+      "query_id": "query_0022",
+      "query": "How do I sort a dictionary by value?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 837
+    },
+    {
+      "query_id": "query_0023",
+      "query": "What is the this keyword?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 645
+    },
+    {
+      "query_id": "query_0024",
+      "query": "How do closures work in JavaScript?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 1086
+    },
+    {
+      "query_id": "query_0025",
+      "query": "What is the difference between == and is?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 837
+    },
+    {
+      "query_id": "query_0026",
+      "query": "What is the difference between pull and fetch?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 359
+    },
+    {
+      "query_id": "query_0027",
+      "query": "How to prevent SQL injection?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1193
+    },
+    {
+      "query_id": "query_0028",
+      "query": "What are database indexes?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 873
+    },
+    {
+      "query_id": "query_0029",
+      "query": "What is the this keyword?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 384
+    },
+    {
+      "query_id": "query_0030",
+      "query": "What is a Git branch?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 335
+    },
+    {
+      "query_id": "query_0031",
+      "query": "What is the difference between merge and rebase?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 965
+    },
+    {
+      "query_id": "query_0032",
+      "query": "What is the difference between list and tuple?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 277
+    },
+    {
+      "query_id": "query_0033",
+      "query": "What are Python generators?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 473
+    },
+    {
+      "query_id": "query_0034",
+      "query": "How to use arrow functions?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 436
+    },
+    {
+      "query_id": "query_0035",
+      "query": "What are Git hooks?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 627
+    },
+    {
+      "query_id": "query_0036",
+      "query": "What is the difference between list and tuple?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1134
+    },
+    {
+      "query_id": "query_0037",
+      "query": "How do I sort a dictionary by value?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1326
+    },
+    {
+      "query_id": "query_0038",
+      "query": "How to prevent SQL injection?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 675
+    },
+    {
+      "query_id": "query_0039",
+      "query": "What is normalization?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 846
+    },
+    {
+      "query_id": "query_0040",
+      "query": "How to optimize SQL queries?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1105
+    },
+    {
+      "query_id": "query_0041",
+      "query": "How to use subqueries?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 590
+    },
+    {
+      "query_id": "query_0042",
+      "query": "How to resolve merge conflicts?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1305
+    },
+    {
+      "query_id": "query_0043",
+      "query": "What is normalization?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 700
+    },
+    {
+      "query_id": "query_0044",
+      "query": "How to view commit history?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1045
+    },
+    {
+      "query_id": "query_0045",
+      "query": "How to deep clone an object?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 876
+    },
+    {
+      "query_id": "query_0046",
+      "query": "How to use arrow functions?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 924
+    },
+    {
+      "query_id": "query_0047",
+      "query": "What is Git stash?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 323
+    },
+    {
+      "query_id": "query_0048",
+      "query": "What are Python decorators?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 831
+    },
+    {
+      "query_id": "query_0049",
+      "query": "What is the difference between merge and rebase?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 810
+    },
+    {
+      "query_id": "query_0050",
+      "query": "What are Git hooks?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1169
+    },
+    {
+      "query_id": "query_0051",
+      "query": "How to use list comprehensions?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 621
+    },
+    {
+      "query_id": "query_0052",
+      "query": "What is the difference between list and tuple?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 461
+    },
+    {
+      "query_id": "query_0053",
+      "query": "What are database indexes?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1063
+    },
+    {
+      "query_id": "query_0054",
+      "query": "How to clone a repository?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 285
+    },
+    {
+      "query_id": "query_0055",
+      "query": "What are Git hooks?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 980
+    },
+    {
+      "query_id": "query_0056",
+      "query": "What are promises in JavaScript?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1418
+    },
+    {
+      "query_id": "query_0057",
+      "query": "How to use async/await?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 729
+    },
+    {
+      "query_id": "query_0058",
+      "query": "How to deep clone an object?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 1665
+    },
+    {
+      "query_id": "query_0059",
+      "query": "How to write a JOIN query?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 944
+    },
+    {
+      "query_id": "query_0060",
+      "query": "How to use async/await?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 390
+    },
+    {
+      "query_id": "query_0061",
+      "query": "How to create a pull request?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 889
+    },
+    {
+      "query_id": "query_0062",
+      "query": "How to use GROUP BY?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 856
+    },
+    {
+      "query_id": "query_0063",
+      "query": "How to deep clone an object?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 1222
+    },
+    {
+      "query_id": "query_0064",
+      "query": "How do closures work in JavaScript?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1225
+    },
+    {
+      "query_id": "query_0065",
+      "query": "How to create a virtual environment?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 742
+    },
+    {
+      "query_id": "query_0066",
+      "query": "How do I sort a dictionary by value?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 746
+    },
+    {
+      "query_id": "query_0067",
+      "query": "What is the difference between let and var?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 537
+    },
+    {
+      "query_id": "query_0068",
+      "query": "What is the GIL in Python?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 891
+    },
+    {
+      "query_id": "query_0069",
+      "query": "How to prevent SQL injection?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1135
+    },
+    {
+      "query_id": "query_0070",
+      "query": "What are Git hooks?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1056
+    },
+    {
+      "query_id": "query_0071",
+      "query": "What is normalization?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 946
+    },
+    {
+      "query_id": "query_0072",
+      "query": "What is the difference between list and tuple?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 681
+    },
+    {
+      "query_id": "query_0073",
+      "query": "What is event delegation?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 392
+    },
+    {
+      "query_id": "query_0074",
+      "query": "What is the GIL in Python?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1089
+    },
+    {
+      "query_id": "query_0075",
+      "query": "How to optimize SQL queries?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 488
+    },
+    {
+      "query_id": "query_0076",
+      "query": "What are JavaScript modules?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 629
+    },
+    {
+      "query_id": "query_0077",
+      "query": "What is the difference between == and is?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 625
+    },
+    {
+      "query_id": "query_0078",
+      "query": "How to read a file line by line?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 661
+    },
+    {
+      "query_id": "query_0079",
+      "query": "How to use subqueries?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 474
+    },
+    {
+      "query_id": "query_0080",
+      "query": "How to optimize SQL queries?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 458
+    },
+    {
+      "query_id": "query_0081",
+      "query": "What is a transaction?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 851
+    },
+    {
+      "query_id": "query_0082",
+      "query": "What are Python generators?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 863
+    },
+    {
+      "query_id": "query_0083",
+      "query": "What is the difference between list and tuple?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 912
+    },
+    {
+      "query_id": "query_0084",
+      "query": "How to read a file line by line?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1085
+    },
+    {
+      "query_id": "query_0085",
+      "query": "How to manipulate the DOM?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 982
+    },
+    {
+      "query_id": "query_0086",
+      "query": "How to prevent SQL injection?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1132
+    },
+    {
+      "query_id": "query_0087",
+      "query": "How to write a JOIN query?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 787
+    },
+    {
+      "query_id": "query_0088",
+      "query": "How to use list comprehensions?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 874
+    },
+    {
+      "query_id": "query_0089",
+      "query": "How to use list comprehensions?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 717
+    },
+    {
+      "query_id": "query_0090",
+      "query": "What are stored procedures?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 809
+    },
+    {
+      "query_id": "query_0091",
+      "query": "What are Python generators?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 286
+    },
+    {
+      "query_id": "query_0092",
+      "query": "How to prevent SQL injection?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 950
+    },
+    {
+      "query_id": "query_0093",
+      "query": "How to prevent SQL injection?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1313
+    },
+    {
+      "query_id": "query_0094",
+      "query": "How to use subqueries?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 741
+    },
+    {
+      "query_id": "query_0095",
+      "query": "What are Python decorators?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 974
+    },
+    {
+      "query_id": "query_0096",
+      "query": "How to use async/await?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 442
+    },
+    {
+      "query_id": "query_0097",
+      "query": "What is the difference between INNER and OUTER JOIN?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1266
+    },
+    {
+      "query_id": "query_0098",
+      "query": "What is the this keyword?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 329
+    },
+    {
+      "query_id": "query_0099",
+      "query": "What is the difference between INNER and OUTER JOIN?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 264
+    },
+    {
+      "query_id": "query_0100",
+      "query": "How to prevent SQL injection?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 930
+    },
+    {
+      "query_id": "query_0101",
+      "query": "What is event delegation?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 280
+    },
+    {
+      "query_id": "query_0102",
+      "query": "How to use GROUP BY?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 536
+    },
+    {
+      "query_id": "query_0103",
+      "query": "What is the difference between pull and fetch?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 598
+    },
+    {
+      "query_id": "query_0104",
+      "query": "How to use subqueries?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 706
+    },
+    {
+      "query_id": "query_0105",
+      "query": "What is event delegation?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 357
+    },
+    {
+      "query_id": "query_0106",
+      "query": "How to write a JOIN query?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 877
+    },
+    {
+      "query_id": "query_0107",
+      "query": "How to create a pull request?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1104
+    },
+    {
+      "query_id": "query_0108",
+      "query": "What are Python generators?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 624
+    },
+    {
+      "query_id": "query_0109",
+      "query": "How to use async/await?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1265
+    },
+    {
+      "query_id": "query_0110",
+      "query": "What is normalization?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 921
+    },
+    {
+      "query_id": "query_0111",
+      "query": "What is normalization?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 872
+    },
+    {
+      "query_id": "query_0112",
+      "query": "How to resolve merge conflicts?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 783
+    },
+    {
+      "query_id": "query_0113",
+      "query": "What is a Git branch?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 361
+    },
+    {
+      "query_id": "query_0114",
+      "query": "What is the difference between INNER and OUTER JOIN?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 485
+    },
+    {
+      "query_id": "query_0115",
+      "query": "What are stored procedures?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 921
+    },
+    {
+      "query_id": "query_0116",
+      "query": "How to create a virtual environment?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 1078
+    },
+    {
+      "query_id": "query_0117",
+      "query": "How to prevent SQL injection?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 710
+    },
+    {
+      "query_id": "query_0118",
+      "query": "How to view commit history?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 637
+    },
+    {
+      "query_id": "query_0119",
+      "query": "What is a Git branch?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 361
+    },
+    {
+      "query_id": "query_0120",
+      "query": "How to manipulate the DOM?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1101
+    },
+    {
+      "query_id": "query_0121",
+      "query": "What are Git hooks?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 719
+    },
+    {
+      "query_id": "query_0122",
+      "query": "How to read a file line by line?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1025
+    },
+    {
+      "query_id": "query_0123",
+      "query": "How to use arrow functions?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 642
+    },
+    {
+      "query_id": "query_0124",
+      "query": "How do closures work in JavaScript?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 1105
+    },
+    {
+      "query_id": "query_0125",
+      "query": "How do I sort a dictionary by value?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 605
+    },
+    {
+      "query_id": "query_0126",
+      "query": "What is the difference between merge and rebase?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1127
+    },
+    {
+      "query_id": "query_0127",
+      "query": "How to use arrow functions?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 538
+    },
+    {
+      "query_id": "query_0128",
+      "query": "How to use async/await?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 1131
+    },
+    {
+      "query_id": "query_0129",
+      "query": "How to manipulate the DOM?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 912
+    },
+    {
+      "query_id": "query_0130",
+      "query": "What is the GIL in Python?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1225
+    },
+    {
+      "query_id": "query_0131",
+      "query": "How to handle exceptions in Python?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 959
+    },
+    {
+      "query_id": "query_0132",
+      "query": "What is the difference between == and is?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 1101
+    },
+    {
+      "query_id": "query_0133",
+      "query": "How to deep clone an object?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 1006
+    },
+    {
+      "query_id": "query_0134",
+      "query": "How to deep clone an object?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 654
+    },
+    {
+      "query_id": "query_0135",
+      "query": "How to handle exceptions in Python?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 670
+    },
+    {
+      "query_id": "query_0136",
+      "query": "What is the this keyword?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 372
+    },
+    {
+      "query_id": "query_0137",
+      "query": "What is a transaction?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1067
+    },
+    {
+      "query_id": "query_0138",
+      "query": "What is the difference between list and tuple?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 521
+    },
+    {
+      "query_id": "query_0139",
+      "query": "What is the GIL in Python?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1221
+    },
+    {
+      "query_id": "query_0140",
+      "query": "How to resolve merge conflicts?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 852
+    },
+    {
+      "query_id": "query_0141",
+      "query": "What is a Git branch?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 445
+    },
+    {
+      "query_id": "query_0142",
+      "query": "How to read a file line by line?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 903
+    },
+    {
+      "query_id": "query_0143",
+      "query": "How to clone a repository?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 539
+    },
+    {
+      "query_id": "query_0144",
+      "query": "How do I sort a dictionary by value?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1158
+    },
+    {
+      "query_id": "query_0145",
+      "query": "What is Git stash?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 224
+    },
+    {
+      "query_id": "query_0146",
+      "query": "How to write a JOIN query?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 996
+    },
+    {
+      "query_id": "query_0147",
+      "query": "What is the difference between let and var?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 531
+    },
+    {
+      "query_id": "query_0148",
+      "query": "How to use async/await?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 365
+    },
+    {
+      "query_id": "query_0149",
+      "query": "What is event delegation?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 386
+    },
+    {
+      "query_id": "query_0150",
+      "query": "How to write a JOIN query?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 486
+    },
+    {
+      "query_id": "query_0151",
+      "query": "How to use list comprehensions?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 833
+    },
+    {
+      "query_id": "query_0152",
+      "query": "How to create a pull request?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1013
+    },
+    {
+      "query_id": "query_0153",
+      "query": "What is the this keyword?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 444
+    },
+    {
+      "query_id": "query_0154",
+      "query": "What is the difference between merge and rebase?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1059
+    },
+    {
+      "query_id": "query_0155",
+      "query": "What is the difference between pull and fetch?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 471
+    },
+    {
+      "query_id": "query_0156",
+      "query": "What are database indexes?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 941
+    },
+    {
+      "query_id": "query_0157",
+      "query": "What is the difference between == and is?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1036
+    },
+    {
+      "query_id": "query_0158",
+      "query": "What are JavaScript modules?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 713
+    },
+    {
+      "query_id": "query_0159",
+      "query": "How to read a file line by line?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 822
+    },
+    {
+      "query_id": "query_0160",
+      "query": "How to clone a repository?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 495
+    },
+    {
+      "query_id": "query_0161",
+      "query": "How to optimize SQL queries?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 456
+    },
+    {
+      "query_id": "query_0162",
+      "query": "How do I sort a dictionary by value?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 954
+    },
+    {
+      "query_id": "query_0163",
+      "query": "How to view commit history?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 826
+    },
+    {
+      "query_id": "query_0164",
+      "query": "What is normalization?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 556
+    },
+    {
+      "query_id": "query_0165",
+      "query": "What is the this keyword?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 463
+    },
+    {
+      "query_id": "query_0166",
+      "query": "How do closures work in JavaScript?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 932
+    },
+    {
+      "query_id": "query_0167",
+      "query": "What is Git stash?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 311
+    },
+    {
+      "query_id": "query_0168",
+      "query": "How to undo the last commit?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 193
+    },
+    {
+      "query_id": "query_0169",
+      "query": "What is the difference between INNER and OUTER JOIN?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 431
+    },
+    {
+      "query_id": "query_0170",
+      "query": "What are Git hooks?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 879
+    },
+    {
+      "query_id": "query_0171",
+      "query": "What is the difference between list and tuple?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 737
+    },
+    {
+      "query_id": "query_0172",
+      "query": "How to optimize SQL queries?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 855
+    },
+    {
+      "query_id": "query_0173",
+      "query": "What are stored procedures?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 609
+    },
+    {
+      "query_id": "query_0174",
+      "query": "How to create a virtual environment?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 590
+    },
+    {
+      "query_id": "query_0175",
+      "query": "How to read a file line by line?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 899
+    },
+    {
+      "query_id": "query_0176",
+      "query": "How to clone a repository?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 352
+    },
+    {
+      "query_id": "query_0177",
+      "query": "What is the GIL in Python?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1088
+    },
+    {
+      "query_id": "query_0178",
+      "query": "What are Git hooks?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 231
+    },
+    {
+      "query_id": "query_0179",
+      "query": "How to use subqueries?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 728
+    },
+    {
+      "query_id": "query_0180",
+      "query": "How to resolve merge conflicts?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 874
+    },
+    {
+      "query_id": "query_0181",
+      "query": "How do closures work in JavaScript?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1025
+    },
+    {
+      "query_id": "query_0182",
+      "query": "What are stored procedures?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 555
+    },
+    {
+      "query_id": "query_0183",
+      "query": "How to write a JOIN query?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 660
+    },
+    {
+      "query_id": "query_0184",
+      "query": "How to use arrow functions?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1219
+    },
+    {
+      "query_id": "query_0185",
+      "query": "How to clone a repository?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 799
+    },
+    {
+      "query_id": "query_0186",
+      "query": "How do I sort a dictionary by value?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1049
+    },
+    {
+      "query_id": "query_0187",
+      "query": "What is a transaction?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 910
+    },
+    {
+      "query_id": "query_0188",
+      "query": "What is the difference between == and is?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 990
+    },
+    {
+      "query_id": "query_0189",
+      "query": "What are promises in JavaScript?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 822
+    },
+    {
+      "query_id": "query_0190",
+      "query": "How to use async/await?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 575
+    },
+    {
+      "query_id": "query_0191",
+      "query": "How to use list comprehensions?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 770
+    },
+    {
+      "query_id": "query_0192",
+      "query": "What is the difference between list and tuple?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1070
+    },
+    {
+      "query_id": "query_0193",
+      "query": "How to use async/await?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 365
+    },
+    {
+      "query_id": "query_0194",
+      "query": "What is a transaction?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 347
+    },
+    {
+      "query_id": "query_0195",
+      "query": "How to handle exceptions in Python?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 839
+    },
+    {
+      "query_id": "query_0196",
+      "query": "How to create a pull request?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 818
+    },
+    {
+      "query_id": "query_0197",
+      "query": "How to deep clone an object?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 2303
+    },
+    {
+      "query_id": "query_0198",
+      "query": "What is normalization?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1380
+    },
+    {
+      "query_id": "query_0199",
+      "query": "How do I sort a dictionary by value?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 835
+    },
+    {
+      "query_id": "query_0200",
+      "query": "How to create a virtual environment?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 495
+    },
+    {
+      "query_id": "query_0201",
+      "query": "How to use arrow functions?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 418
+    },
+    {
+      "query_id": "query_0202",
+      "query": "How to optimize SQL queries?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 660
+    },
+    {
+      "query_id": "query_0203",
+      "query": "What is the GIL in Python?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 465
+    },
+    {
+      "query_id": "query_0204",
+      "query": "What is the difference between INNER and OUTER JOIN?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 501
+    },
+    {
+      "query_id": "query_0205",
+      "query": "What are Git hooks?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 902
+    },
+    {
+      "query_id": "query_0206",
+      "query": "What is a transaction?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 421
+    },
+    {
+      "query_id": "query_0207",
+      "query": "What are promises in JavaScript?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 842
+    },
+    {
+      "query_id": "query_0208",
+      "query": "How to create a virtual environment?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 789
+    },
+    {
+      "query_id": "query_0209",
+      "query": "What is a transaction?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 694
+    },
+    {
+      "query_id": "query_0210",
+      "query": "What is the difference between == and is?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 276
+    },
+    {
+      "query_id": "query_0211",
+      "query": "How to manipulate the DOM?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 1153
+    },
+    {
+      "query_id": "query_0212",
+      "query": "How to use subqueries?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 545
+    },
+    {
+      "query_id": "query_0213",
+      "query": "How to deep clone an object?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 1217
+    },
+    {
+      "query_id": "query_0214",
+      "query": "How to resolve merge conflicts?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 942
+    },
+    {
+      "query_id": "query_0215",
+      "query": "How to handle exceptions in Python?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 659
+    },
+    {
+      "query_id": "query_0216",
+      "query": "What is a transaction?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 958
+    },
+    {
+      "query_id": "query_0217",
+      "query": "How to create a pull request?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 988
+    },
+    {
+      "query_id": "query_0218",
+      "query": "How to use subqueries?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 776
+    },
+    {
+      "query_id": "query_0219",
+      "query": "How to handle exceptions in Python?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1196
+    },
+    {
+      "query_id": "query_0220",
+      "query": "How to use subqueries?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 836
+    },
+    {
+      "query_id": "query_0221",
+      "query": "What are Python decorators?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 987
+    },
+    {
+      "query_id": "query_0222",
+      "query": "How to use async/await?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 436
+    },
+    {
+      "query_id": "query_0223",
+      "query": "How to read a file line by line?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 848
+    },
+    {
+      "query_id": "query_0224",
+      "query": "How to create a pull request?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 960
+    },
+    {
+      "query_id": "query_0225",
+      "query": "How do closures work in JavaScript?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 948
+    },
+    {
+      "query_id": "query_0226",
+      "query": "How to read a file line by line?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1270
+    },
+    {
+      "query_id": "query_0227",
+      "query": "How to create a virtual environment?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 1088
+    },
+    {
+      "query_id": "query_0228",
+      "query": "What is normalization?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 404
+    },
+    {
+      "query_id": "query_0229",
+      "query": "What is Git stash?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 347
+    },
+    {
+      "query_id": "query_0230",
+      "query": "How to resolve merge conflicts?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 835
+    },
+    {
+      "query_id": "query_0231",
+      "query": "What is the difference between merge and rebase?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1017
+    },
+    {
+      "query_id": "query_0232",
+      "query": "What are Git hooks?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 682
+    },
+    {
+      "query_id": "query_0233",
+      "query": "What is normalization?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 721
+    },
+    {
+      "query_id": "query_0234",
+      "query": "How to use async/await?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 1148
+    },
+    {
+      "query_id": "query_0235",
+      "query": "What are Python decorators?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 782
+    },
+    {
+      "query_id": "query_0236",
+      "query": "What are Python decorators?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 850
+    },
+    {
+      "query_id": "query_0237",
+      "query": "What is the GIL in Python?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1240
+    },
+    {
+      "query_id": "query_0238",
+      "query": "What are Git hooks?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 595
+    },
+    {
+      "query_id": "query_0239",
+      "query": "How to view commit history?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 883
+    },
+    {
+      "query_id": "query_0240",
+      "query": "What are Python generators?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 802
+    },
+    {
+      "query_id": "query_0241",
+      "query": "What is event delegation?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 328
+    },
+    {
+      "query_id": "query_0242",
+      "query": "What are promises in JavaScript?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1005
+    },
+    {
+      "query_id": "query_0243",
+      "query": "What are database indexes?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 731
+    },
+    {
+      "query_id": "query_0244",
+      "query": "How do closures work in JavaScript?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 808
+    },
+    {
+      "query_id": "query_0245",
+      "query": "What are Python decorators?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 535
+    },
+    {
+      "query_id": "query_0246",
+      "query": "What is a transaction?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 870
+    },
+    {
+      "query_id": "query_0247",
+      "query": "What are Git hooks?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 320
+    },
+    {
+      "query_id": "query_0248",
+      "query": "What are database indexes?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 954
+    },
+    {
+      "query_id": "query_0249",
+      "query": "What is normalization?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 724
+    },
+    {
+      "query_id": "query_0250",
+      "query": "How to undo the last commit?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 727
+    },
+    {
+      "query_id": "query_0251",
+      "query": "What are stored procedures?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 887
+    },
+    {
+      "query_id": "query_0252",
+      "query": "How to deep clone an object?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 1221
+    },
+    {
+      "query_id": "query_0253",
+      "query": "What is normalization?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 959
+    },
+    {
+      "query_id": "query_0254",
+      "query": "What is the difference between merge and rebase?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1083
+    },
+    {
+      "query_id": "query_0255",
+      "query": "What is the difference between let and var?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 559
+    },
+    {
+      "query_id": "query_0256",
+      "query": "What is the difference between list and tuple?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 983
+    },
+    {
+      "query_id": "query_0257",
+      "query": "What are Python decorators?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 723
+    },
+    {
+      "query_id": "query_0258",
+      "query": "What is the difference between pull and fetch?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 353
+    },
+    {
+      "query_id": "query_0259",
+      "query": "How to undo the last commit?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 633
+    },
+    {
+      "query_id": "query_0260",
+      "query": "What is normalization?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 870
+    },
+    {
+      "query_id": "query_0261",
+      "query": "What is the difference between merge and rebase?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 967
+    },
+    {
+      "query_id": "query_0262",
+      "query": "What are promises in JavaScript?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 873
+    },
+    {
+      "query_id": "query_0263",
+      "query": "How to undo the last commit?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 536
+    },
+    {
+      "query_id": "query_0264",
+      "query": "How to optimize SQL queries?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 831
+    },
+    {
+      "query_id": "query_0265",
+      "query": "What is the difference between pull and fetch?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 278
+    },
+    {
+      "query_id": "query_0266",
+      "query": "How to create a pull request?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1063
+    },
+    {
+      "query_id": "query_0267",
+      "query": "What is normalization?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 828
+    },
+    {
+      "query_id": "query_0268",
+      "query": "How to clone a repository?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 288
+    },
+    {
+      "query_id": "query_0269",
+      "query": "How to use arrow functions?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 462
+    },
+    {
+      "query_id": "query_0270",
+      "query": "How to view commit history?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 718
+    },
+    {
+      "query_id": "query_0271",
+      "query": "What is the difference between INNER and OUTER JOIN?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 701
+    },
+    {
+      "query_id": "query_0272",
+      "query": "How to view commit history?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 853
+    },
+    {
+      "query_id": "query_0273",
+      "query": "How to deep clone an object?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1880
+    },
+    {
+      "query_id": "query_0274",
+      "query": "What is the difference between list and tuple?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 698
+    },
+    {
+      "query_id": "query_0275",
+      "query": "What is the difference between pull and fetch?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 410
+    },
+    {
+      "query_id": "query_0276",
+      "query": "How to view commit history?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 498
+    },
+    {
+      "query_id": "query_0277",
+      "query": "How to use GROUP BY?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 764
+    },
+    {
+      "query_id": "query_0278",
+      "query": "What is a transaction?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 819
+    },
+    {
+      "query_id": "query_0279",
+      "query": "How to use subqueries?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 952
+    },
+    {
+      "query_id": "query_0280",
+      "query": "How to read a file line by line?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1081
+    },
+    {
+      "query_id": "query_0281",
+      "query": "How to use list comprehensions?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 849
+    },
+    {
+      "query_id": "query_0282",
+      "query": "What is the difference between INNER and OUTER JOIN?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 827
+    },
+    {
+      "query_id": "query_0283",
+      "query": "How to use arrow functions?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 863
+    },
+    {
+      "query_id": "query_0284",
+      "query": "How to create a pull request?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 809
+    },
+    {
+      "query_id": "query_0285",
+      "query": "How to create a virtual environment?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 630
+    },
+    {
+      "query_id": "query_0286",
+      "query": "What is the difference between == and is?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 993
+    },
+    {
+      "query_id": "query_0287",
+      "query": "How to use async/await?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 664
+    },
+    {
+      "query_id": "query_0288",
+      "query": "How to optimize SQL queries?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1091
+    },
+    {
+      "query_id": "query_0289",
+      "query": "What is the difference between pull and fetch?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 374
+    },
+    {
+      "query_id": "query_0290",
+      "query": "What is the difference between == and is?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 910
+    },
+    {
+      "query_id": "query_0291",
+      "query": "How to deep clone an object?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 924
+    },
+    {
+      "query_id": "query_0292",
+      "query": "How to create a virtual environment?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 625
+    },
+    {
+      "query_id": "query_0293",
+      "query": "How to deep clone an object?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 954
+    },
+    {
+      "query_id": "query_0294",
+      "query": "What are Python generators?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 965
+    },
+    {
+      "query_id": "query_0295",
+      "query": "What is a transaction?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 758
+    },
+    {
+      "query_id": "query_0296",
+      "query": "What are Git hooks?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 254
+    },
+    {
+      "query_id": "query_0297",
+      "query": "How to use GROUP BY?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 662
+    },
+    {
+      "query_id": "query_0298",
+      "query": "How to resolve merge conflicts?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 339
+    },
+    {
+      "query_id": "query_0299",
+      "query": "What is Git stash?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 356
+    },
+    {
+      "query_id": "query_0300",
+      "query": "How to prevent SQL injection?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1036
+    },
+    {
+      "query_id": "query_0301",
+      "query": "What are Python generators?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 800
+    },
+    {
+      "query_id": "query_0302",
+      "query": "What is normalization?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1370
+    },
+    {
+      "query_id": "query_0303",
+      "query": "What is event delegation?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 309
+    },
+    {
+      "query_id": "query_0304",
+      "query": "How to undo the last commit?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 864
+    },
+    {
+      "query_id": "query_0305",
+      "query": "What are Python decorators?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 842
+    },
+    {
+      "query_id": "query_0306",
+      "query": "How to use subqueries?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1072
+    },
+    {
+      "query_id": "query_0307",
+      "query": "How to manipulate the DOM?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 824
+    },
+    {
+      "query_id": "query_0308",
+      "query": "What is normalization?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 777
+    },
+    {
+      "query_id": "query_0309",
+      "query": "How to use list comprehensions?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 759
+    },
+    {
+      "query_id": "query_0310",
+      "query": "What is the difference between == and is?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 1035
+    },
+    {
+      "query_id": "query_0311",
+      "query": "How to use subqueries?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 785
+    },
+    {
+      "query_id": "query_0312",
+      "query": "How to clone a repository?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 570
+    },
+    {
+      "query_id": "query_0313",
+      "query": "What are JavaScript modules?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 617
+    },
+    {
+      "query_id": "query_0314",
+      "query": "What are JavaScript modules?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 687
+    },
+    {
+      "query_id": "query_0315",
+      "query": "What are JavaScript modules?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 417
+    },
+    {
+      "query_id": "query_0316",
+      "query": "What are Python generators?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 746
+    },
+    {
+      "query_id": "query_0317",
+      "query": "How do I sort a dictionary by value?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 835
+    },
+    {
+      "query_id": "query_0318",
+      "query": "What is the difference between merge and rebase?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1072
+    },
+    {
+      "query_id": "query_0319",
+      "query": "How to manipulate the DOM?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 953
+    },
+    {
+      "query_id": "query_0320",
+      "query": "What is normalization?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1095
+    },
+    {
+      "query_id": "query_0321",
+      "query": "How to prevent SQL injection?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1040
+    },
+    {
+      "query_id": "query_0322",
+      "query": "What is a transaction?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 483
+    },
+    {
+      "query_id": "query_0323",
+      "query": "What is the difference between list and tuple?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 748
+    },
+    {
+      "query_id": "query_0324",
+      "query": "What is the difference between let and var?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 740
+    },
+    {
+      "query_id": "query_0325",
+      "query": "What is a Git branch?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 314
+    },
+    {
+      "query_id": "query_0326",
+      "query": "What is the difference between let and var?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 1044
+    },
+    {
+      "query_id": "query_0327",
+      "query": "How to create a virtual environment?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1232
+    },
+    {
+      "query_id": "query_0328",
+      "query": "What are Python decorators?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 711
+    },
+    {
+      "query_id": "query_0329",
+      "query": "How to use GROUP BY?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 690
+    },
+    {
+      "query_id": "query_0330",
+      "query": "What is the difference between let and var?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 758
+    },
+    {
+      "query_id": "query_0331",
+      "query": "How to view commit history?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 954
+    },
+    {
+      "query_id": "query_0332",
+      "query": "How to resolve merge conflicts?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 824
+    },
+    {
+      "query_id": "query_0333",
+      "query": "What is the this keyword?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 354
+    },
+    {
+      "query_id": "query_0334",
+      "query": "What is the difference between == and is?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 1103
+    },
+    {
+      "query_id": "query_0335",
+      "query": "What are stored procedures?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 625
+    },
+    {
+      "query_id": "query_0336",
+      "query": "What are database indexes?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 600
+    },
+    {
+      "query_id": "query_0337",
+      "query": "How to create a virtual environment?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 760
+    },
+    {
+      "query_id": "query_0338",
+      "query": "What is the difference between INNER and OUTER JOIN?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 504
+    },
+    {
+      "query_id": "query_0339",
+      "query": "How to write a JOIN query?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 978
+    },
+    {
+      "query_id": "query_0340",
+      "query": "What is Git stash?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 701
+    },
+    {
+      "query_id": "query_0341",
+      "query": "What is a transaction?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 259
+    },
+    {
+      "query_id": "query_0342",
+      "query": "How to use async/await?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 450
+    },
+    {
+      "query_id": "query_0343",
+      "query": "How to use async/await?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 392
+    },
+    {
+      "query_id": "query_0344",
+      "query": "What is the difference between merge and rebase?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1230
+    },
+    {
+      "query_id": "query_0345",
+      "query": "What is normalization?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 801
+    },
+    {
+      "query_id": "query_0346",
+      "query": "What is normalization?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 845
+    },
+    {
+      "query_id": "query_0347",
+      "query": "How do I sort a dictionary by value?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1123
+    },
+    {
+      "query_id": "query_0348",
+      "query": "What are promises in JavaScript?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1448
+    },
+    {
+      "query_id": "query_0349",
+      "query": "How to use async/await?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 327
+    },
+    {
+      "query_id": "query_0350",
+      "query": "What is the difference between merge and rebase?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 900
+    },
+    {
+      "query_id": "query_0351",
+      "query": "What is the difference between list and tuple?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 385
+    },
+    {
+      "query_id": "query_0352",
+      "query": "How to resolve merge conflicts?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 848
+    },
+    {
+      "query_id": "query_0353",
+      "query": "How do closures work in JavaScript?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 854
+    },
+    {
+      "query_id": "query_0354",
+      "query": "How to undo the last commit?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 535
+    },
+    {
+      "query_id": "query_0355",
+      "query": "What is the difference between pull and fetch?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 392
+    },
+    {
+      "query_id": "query_0356",
+      "query": "What are Python generators?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 760
+    },
+    {
+      "query_id": "query_0357",
+      "query": "How do closures work in JavaScript?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 973
+    },
+    {
+      "query_id": "query_0358",
+      "query": "What are promises in JavaScript?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 829
+    },
+    {
+      "query_id": "query_0359",
+      "query": "How to use list comprehensions?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 805
+    },
+    {
+      "query_id": "query_0360",
+      "query": "What is the difference between list and tuple?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 687
+    },
+    {
+      "query_id": "query_0361",
+      "query": "How to clone a repository?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 329
+    },
+    {
+      "query_id": "query_0362",
+      "query": "How to deep clone an object?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 1226
+    },
+    {
+      "query_id": "query_0363",
+      "query": "What is the difference between merge and rebase?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 812
+    },
+    {
+      "query_id": "query_0364",
+      "query": "What is the difference between == and is?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 278
+    },
+    {
+      "query_id": "query_0365",
+      "query": "How to use list comprehensions?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 907
+    },
+    {
+      "query_id": "query_0366",
+      "query": "What is a Git branch?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 349
+    },
+    {
+      "query_id": "query_0367",
+      "query": "How to resolve merge conflicts?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1096
+    },
+    {
+      "query_id": "query_0368",
+      "query": "How to create a pull request?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 896
+    },
+    {
+      "query_id": "query_0369",
+      "query": "What is the difference between pull and fetch?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 472
+    },
+    {
+      "query_id": "query_0370",
+      "query": "What is event delegation?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 262
+    },
+    {
+      "query_id": "query_0371",
+      "query": "What are Python decorators?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 885
+    },
+    {
+      "query_id": "query_0372",
+      "query": "How to use list comprehensions?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1015
+    },
+    {
+      "query_id": "query_0373",
+      "query": "How to use GROUP BY?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 793
+    },
+    {
+      "query_id": "query_0374",
+      "query": "How to create a pull request?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1033
+    },
+    {
+      "query_id": "query_0375",
+      "query": "What is the difference between pull and fetch?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 352
+    },
+    {
+      "query_id": "query_0376",
+      "query": "How to prevent SQL injection?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1094
+    },
+    {
+      "query_id": "query_0377",
+      "query": "How do I sort a dictionary by value?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1027
+    },
+    {
+      "query_id": "query_0378",
+      "query": "How to manipulate the DOM?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1027
+    },
+    {
+      "query_id": "query_0379",
+      "query": "How do I sort a dictionary by value?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 722
+    },
+    {
+      "query_id": "query_0380",
+      "query": "What is Git stash?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 400
+    },
+    {
+      "query_id": "query_0381",
+      "query": "How to read a file line by line?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 795
+    },
+    {
+      "query_id": "query_0382",
+      "query": "How to deep clone an object?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 708
+    },
+    {
+      "query_id": "query_0383",
+      "query": "How to prevent SQL injection?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1036
+    },
+    {
+      "query_id": "query_0384",
+      "query": "What is the difference between INNER and OUTER JOIN?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 344
+    },
+    {
+      "query_id": "query_0385",
+      "query": "How to undo the last commit?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 446
+    },
+    {
+      "query_id": "query_0386",
+      "query": "What is the difference between == and is?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 1056
+    },
+    {
+      "query_id": "query_0387",
+      "query": "What is a Git branch?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 240
+    },
+    {
+      "query_id": "query_0388",
+      "query": "How to use subqueries?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 721
+    },
+    {
+      "query_id": "query_0389",
+      "query": "How to view commit history?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 880
+    },
+    {
+      "query_id": "query_0390",
+      "query": "How to create a pull request?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 889
+    },
+    {
+      "query_id": "query_0391",
+      "query": "How to create a virtual environment?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 1107
+    },
+    {
+      "query_id": "query_0392",
+      "query": "What are stored procedures?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 918
+    },
+    {
+      "query_id": "query_0393",
+      "query": "How to optimize SQL queries?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 1029
+    },
+    {
+      "query_id": "query_0394",
+      "query": "How to use subqueries?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1032
+    },
+    {
+      "query_id": "query_0395",
+      "query": "How to undo the last commit?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 285
+    },
+    {
+      "query_id": "query_0396",
+      "query": "How to handle exceptions in Python?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 651
+    },
+    {
+      "query_id": "query_0397",
+      "query": "How to prevent SQL injection?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 890
+    },
+    {
+      "query_id": "query_0398",
+      "query": "How to clone a repository?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 448
+    },
+    {
+      "query_id": "query_0399",
+      "query": "How to use list comprehensions?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1355
+    },
+    {
+      "query_id": "query_0400",
+      "query": "How to use list comprehensions?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 690
+    },
+    {
+      "query_id": "query_0401",
+      "query": "What is normalization?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 918
+    },
+    {
+      "query_id": "query_0402",
+      "query": "How to create a virtual environment?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 720
+    },
+    {
+      "query_id": "query_0403",
+      "query": "How to undo the last commit?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 615
+    },
+    {
+      "query_id": "query_0404",
+      "query": "How do I sort a dictionary by value?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 833
+    },
+    {
+      "query_id": "query_0405",
+      "query": "What is the difference between INNER and OUTER JOIN?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1377
+    },
+    {
+      "query_id": "query_0406",
+      "query": "How do closures work in JavaScript?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 1031
+    },
+    {
+      "query_id": "query_0407",
+      "query": "How to manipulate the DOM?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 975
+    },
+    {
+      "query_id": "query_0408",
+      "query": "What is the difference between INNER and OUTER JOIN?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 882
+    },
+    {
+      "query_id": "query_0409",
+      "query": "What are promises in JavaScript?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 892
+    },
+    {
+      "query_id": "query_0410",
+      "query": "How to resolve merge conflicts?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 957
+    },
+    {
+      "query_id": "query_0411",
+      "query": "What are stored procedures?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 729
+    },
+    {
+      "query_id": "query_0412",
+      "query": "How to prevent SQL injection?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 882
+    },
+    {
+      "query_id": "query_0413",
+      "query": "What is the difference between let and var?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 608
+    },
+    {
+      "query_id": "query_0414",
+      "query": "How to use list comprehensions?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 726
+    },
+    {
+      "query_id": "query_0415",
+      "query": "How to use list comprehensions?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 771
+    },
+    {
+      "query_id": "query_0416",
+      "query": "What are database indexes?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1036
+    },
+    {
+      "query_id": "query_0417",
+      "query": "How to view commit history?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 792
+    },
+    {
+      "query_id": "query_0418",
+      "query": "What is Git stash?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 295
+    },
+    {
+      "query_id": "query_0419",
+      "query": "What is the difference between INNER and OUTER JOIN?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 527
+    },
+    {
+      "query_id": "query_0420",
+      "query": "How to view commit history?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 945
+    },
+    {
+      "query_id": "query_0421",
+      "query": "How to view commit history?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1029
+    },
+    {
+      "query_id": "query_0422",
+      "query": "What is the difference between INNER and OUTER JOIN?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 724
+    },
+    {
+      "query_id": "query_0423",
+      "query": "What are Git hooks?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 841
+    },
+    {
+      "query_id": "query_0424",
+      "query": "How to read a file line by line?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1879
+    },
+    {
+      "query_id": "query_0425",
+      "query": "How to resolve merge conflicts?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 767
+    },
+    {
+      "query_id": "query_0426",
+      "query": "How to clone a repository?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 326
+    },
+    {
+      "query_id": "query_0427",
+      "query": "How to undo the last commit?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 446
+    },
+    {
+      "query_id": "query_0428",
+      "query": "What are stored procedures?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1043
+    },
+    {
+      "query_id": "query_0429",
+      "query": "How to optimize SQL queries?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 697
+    },
+    {
+      "query_id": "query_0430",
+      "query": "How to use subqueries?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 755
+    },
+    {
+      "query_id": "query_0431",
+      "query": "What is the difference between pull and fetch?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 379
+    },
+    {
+      "query_id": "query_0432",
+      "query": "How to undo the last commit?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 248
+    },
+    {
+      "query_id": "query_0433",
+      "query": "How to manipulate the DOM?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 1234
+    },
+    {
+      "query_id": "query_0434",
+      "query": "How to use list comprehensions?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1116
+    },
+    {
+      "query_id": "query_0435",
+      "query": "What is the difference between == and is?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 482
+    },
+    {
+      "query_id": "query_0436",
+      "query": "How to view commit history?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 846
+    },
+    {
+      "query_id": "query_0437",
+      "query": "What is the difference between let and var?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 643
+    },
+    {
+      "query_id": "query_0438",
+      "query": "How to undo the last commit?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 786
+    },
+    {
+      "query_id": "query_0439",
+      "query": "How to read a file line by line?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 914
+    },
+    {
+      "query_id": "query_0440",
+      "query": "What are Python generators?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 667
+    },
+    {
+      "query_id": "query_0441",
+      "query": "How to resolve merge conflicts?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 871
+    },
+    {
+      "query_id": "query_0442",
+      "query": "How to resolve merge conflicts?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 934
+    },
+    {
+      "query_id": "query_0443",
+      "query": "What are Python decorators?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 632
+    },
+    {
+      "query_id": "query_0444",
+      "query": "What is Git stash?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 553
+    },
+    {
+      "query_id": "query_0445",
+      "query": "What is a transaction?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 844
+    },
+    {
+      "query_id": "query_0446",
+      "query": "How to read a file line by line?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 888
+    },
+    {
+      "query_id": "query_0447",
+      "query": "How to handle exceptions in Python?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 905
+    },
+    {
+      "query_id": "query_0448",
+      "query": "What is the this keyword?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 420
+    },
+    {
+      "query_id": "query_0449",
+      "query": "What are stored procedures?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 912
+    },
+    {
+      "query_id": "query_0450",
+      "query": "How to use GROUP BY?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 536
+    },
+    {
+      "query_id": "query_0451",
+      "query": "What is the GIL in Python?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 893
+    },
+    {
+      "query_id": "query_0452",
+      "query": "What are Git hooks?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 333
+    },
+    {
+      "query_id": "query_0453",
+      "query": "How to use GROUP BY?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 433
+    },
+    {
+      "query_id": "query_0454",
+      "query": "What is a Git branch?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 318
+    },
+    {
+      "query_id": "query_0455",
+      "query": "What is a Git branch?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 568
+    },
+    {
+      "query_id": "query_0456",
+      "query": "How to use arrow functions?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 364
+    },
+    {
+      "query_id": "query_0457",
+      "query": "What are Git hooks?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 403
+    },
+    {
+      "query_id": "query_0458",
+      "query": "What is a transaction?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 919
+    },
+    {
+      "query_id": "query_0459",
+      "query": "How do I sort a dictionary by value?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 937
+    },
+    {
+      "query_id": "query_0460",
+      "query": "What are Python decorators?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1151
+    },
+    {
+      "query_id": "query_0461",
+      "query": "How to use async/await?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 435
+    },
+    {
+      "query_id": "query_0462",
+      "query": "What is the this keyword?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 381
+    },
+    {
+      "query_id": "query_0463",
+      "query": "How to use list comprehensions?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 1061
+    },
+    {
+      "query_id": "query_0464",
+      "query": "How to manipulate the DOM?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1074
+    },
+    {
+      "query_id": "query_0465",
+      "query": "What are database indexes?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 939
+    },
+    {
+      "query_id": "query_0466",
+      "query": "How to deep clone an object?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 782
+    },
+    {
+      "query_id": "query_0467",
+      "query": "How to optimize SQL queries?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 967
+    },
+    {
+      "query_id": "query_0468",
+      "query": "How to manipulate the DOM?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1348
+    },
+    {
+      "query_id": "query_0469",
+      "query": "How to use async/await?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 417
+    },
+    {
+      "query_id": "query_0470",
+      "query": "How to write a JOIN query?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 683
+    },
+    {
+      "query_id": "query_0471",
+      "query": "How to clone a repository?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 406
+    },
+    {
+      "query_id": "query_0472",
+      "query": "What are Python decorators?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 557
+    },
+    {
+      "query_id": "query_0473",
+      "query": "How to prevent SQL injection?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1071
+    },
+    {
+      "query_id": "query_0474",
+      "query": "How to view commit history?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 707
+    },
+    {
+      "query_id": "query_0475",
+      "query": "How to manipulate the DOM?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1001
+    },
+    {
+      "query_id": "query_0476",
+      "query": "What is the difference between INNER and OUTER JOIN?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 331
+    },
+    {
+      "query_id": "query_0477",
+      "query": "What is the difference between INNER and OUTER JOIN?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 497
+    },
+    {
+      "query_id": "query_0478",
+      "query": "How to create a pull request?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 507
+    },
+    {
+      "query_id": "query_0479",
+      "query": "What are Python generators?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1285
+    },
+    {
+      "query_id": "query_0480",
+      "query": "How do closures work in JavaScript?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 1648
+    },
+    {
+      "query_id": "query_0481",
+      "query": "What is the difference between let and var?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1228
+    },
+    {
+      "query_id": "query_0482",
+      "query": "What is the difference between merge and rebase?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 784
+    },
+    {
+      "query_id": "query_0483",
+      "query": "How to use subqueries?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 538
+    },
+    {
+      "query_id": "query_0484",
+      "query": "How to deep clone an object?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 1635
+    },
+    {
+      "query_id": "query_0485",
+      "query": "How to write a JOIN query?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 799
+    },
+    {
+      "query_id": "query_0486",
+      "query": "How to handle exceptions in Python?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 695
+    },
+    {
+      "query_id": "query_0487",
+      "query": "How to use arrow functions?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 390
+    },
+    {
+      "query_id": "query_0488",
+      "query": "What is the difference between list and tuple?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 503
+    },
+    {
+      "query_id": "query_0489",
+      "query": "How to deep clone an object?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 1008
+    },
+    {
+      "query_id": "query_0490",
+      "query": "How to use arrow functions?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 630
+    },
+    {
+      "query_id": "query_0491",
+      "query": "How to undo the last commit?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 803
+    },
+    {
+      "query_id": "query_0492",
+      "query": "How to resolve merge conflicts?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 817
+    },
+    {
+      "query_id": "query_0493",
+      "query": "What is normalization?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 489
+    },
+    {
+      "query_id": "query_0494",
+      "query": "How to use subqueries?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 874
+    },
+    {
+      "query_id": "query_0495",
+      "query": "What are promises in JavaScript?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1008
+    },
+    {
+      "query_id": "query_0496",
+      "query": "How to resolve merge conflicts?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 1045
+    },
+    {
+      "query_id": "query_0497",
+      "query": "How to undo the last commit?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 691
+    },
+    {
+      "query_id": "query_0498",
+      "query": "How to handle exceptions in Python?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1253
+    },
+    {
+      "query_id": "query_0499",
+      "query": "How to use arrow functions?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 693
+    },
+    {
+      "query_id": "query_0500",
+      "query": "How to clone a repository?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 767
+    },
+    {
+      "query_id": "query_0501",
+      "query": "What are JavaScript modules?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 549
+    },
+    {
+      "query_id": "query_0502",
+      "query": "How to use list comprehensions?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 706
+    },
+    {
+      "query_id": "query_0503",
+      "query": "What is the difference between pull and fetch?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 428
+    },
+    {
+      "query_id": "query_0504",
+      "query": "How to create a virtual environment?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 916
+    },
+    {
+      "query_id": "query_0505",
+      "query": "What are Python decorators?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 852
+    },
+    {
+      "query_id": "query_0506",
+      "query": "What is the difference between merge and rebase?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 692
+    },
+    {
+      "query_id": "query_0507",
+      "query": "How to use subqueries?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 479
+    },
+    {
+      "query_id": "query_0508",
+      "query": "How to use async/await?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 355
+    },
+    {
+      "query_id": "query_0509",
+      "query": "What is Git stash?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 252
+    },
+    {
+      "query_id": "query_0510",
+      "query": "How to create a pull request?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 850
+    },
+    {
+      "query_id": "query_0511",
+      "query": "How to use async/await?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 346
+    },
+    {
+      "query_id": "query_0512",
+      "query": "How to deep clone an object?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 1090
+    },
+    {
+      "query_id": "query_0513",
+      "query": "What is the GIL in Python?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1337
+    },
+    {
+      "query_id": "query_0514",
+      "query": "What is the difference between INNER and OUTER JOIN?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 556
+    },
+    {
+      "query_id": "query_0515",
+      "query": "How to prevent SQL injection?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 788
+    },
+    {
+      "query_id": "query_0516",
+      "query": "How to use arrow functions?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 345
+    },
+    {
+      "query_id": "query_0517",
+      "query": "What is the difference between INNER and OUTER JOIN?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 501
+    },
+    {
+      "query_id": "query_0518",
+      "query": "What are Git hooks?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1137
+    },
+    {
+      "query_id": "query_0519",
+      "query": "What are stored procedures?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1079
+    },
+    {
+      "query_id": "query_0520",
+      "query": "What is the GIL in Python?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1380
+    },
+    {
+      "query_id": "query_0521",
+      "query": "What is the difference between INNER and OUTER JOIN?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 623
+    },
+    {
+      "query_id": "query_0522",
+      "query": "What are Python decorators?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 885
+    },
+    {
+      "query_id": "query_0523",
+      "query": "How to prevent SQL injection?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1219
+    },
+    {
+      "query_id": "query_0524",
+      "query": "What are JavaScript modules?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 461
+    },
+    {
+      "query_id": "query_0525",
+      "query": "What is a transaction?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 855
+    },
+    {
+      "query_id": "query_0526",
+      "query": "How to manipulate the DOM?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1332
+    },
+    {
+      "query_id": "query_0527",
+      "query": "What is the difference between merge and rebase?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 449
+    },
+    {
+      "query_id": "query_0528",
+      "query": "What is the this keyword?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 391
+    },
+    {
+      "query_id": "query_0529",
+      "query": "What are Python decorators?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 547
+    },
+    {
+      "query_id": "query_0530",
+      "query": "What is normalization?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1315
+    },
+    {
+      "query_id": "query_0531",
+      "query": "How to resolve merge conflicts?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 988
+    },
+    {
+      "query_id": "query_0532",
+      "query": "What is a transaction?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 355
+    },
+    {
+      "query_id": "query_0533",
+      "query": "What are promises in JavaScript?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1257
+    },
+    {
+      "query_id": "query_0534",
+      "query": "How to clone a repository?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1087
+    },
+    {
+      "query_id": "query_0535",
+      "query": "How to optimize SQL queries?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 812
+    },
+    {
+      "query_id": "query_0536",
+      "query": "How to use GROUP BY?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 489
+    },
+    {
+      "query_id": "query_0537",
+      "query": "What is the difference between INNER and OUTER JOIN?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 522
+    },
+    {
+      "query_id": "query_0538",
+      "query": "How to create a pull request?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1073
+    },
+    {
+      "query_id": "query_0539",
+      "query": "What is the difference between merge and rebase?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 883
+    },
+    {
+      "query_id": "query_0540",
+      "query": "How to resolve merge conflicts?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 752
+    },
+    {
+      "query_id": "query_0541",
+      "query": "How to create a virtual environment?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1184
+    },
+    {
+      "query_id": "query_0542",
+      "query": "What is the difference between list and tuple?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 926
+    },
+    {
+      "query_id": "query_0543",
+      "query": "How do I sort a dictionary by value?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 906
+    },
+    {
+      "query_id": "query_0544",
+      "query": "How to use GROUP BY?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 598
+    },
+    {
+      "query_id": "query_0545",
+      "query": "What is Git stash?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 739
+    },
+    {
+      "query_id": "query_0546",
+      "query": "What is the difference between list and tuple?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 438
+    },
+    {
+      "query_id": "query_0547",
+      "query": "What is the difference between == and is?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1754
+    },
+    {
+      "query_id": "query_0548",
+      "query": "How to prevent SQL injection?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1035
+    },
+    {
+      "query_id": "query_0549",
+      "query": "What are promises in JavaScript?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1179
+    },
+    {
+      "query_id": "query_0550",
+      "query": "What is the difference between list and tuple?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 1220
+    },
+    {
+      "query_id": "query_0551",
+      "query": "What is normalization?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 807
+    },
+    {
+      "query_id": "query_0552",
+      "query": "How to prevent SQL injection?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 922
+    },
+    {
+      "query_id": "query_0553",
+      "query": "How to use list comprehensions?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 730
+    },
+    {
+      "query_id": "query_0554",
+      "query": "How to read a file line by line?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1054
+    },
+    {
+      "query_id": "query_0555",
+      "query": "What are Python decorators?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 855
+    },
+    {
+      "query_id": "query_0556",
+      "query": "What is the this keyword?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 391
+    },
+    {
+      "query_id": "query_0557",
+      "query": "What are database indexes?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 320
+    },
+    {
+      "query_id": "query_0558",
+      "query": "How to create a pull request?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 756
+    },
+    {
+      "query_id": "query_0559",
+      "query": "What is the difference between pull and fetch?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 572
+    },
+    {
+      "query_id": "query_0560",
+      "query": "How to create a virtual environment?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1027
+    },
+    {
+      "query_id": "query_0561",
+      "query": "What is normalization?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 943
+    },
+    {
+      "query_id": "query_0562",
+      "query": "How to use arrow functions?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 669
+    },
+    {
+      "query_id": "query_0563",
+      "query": "What is the difference between merge and rebase?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1116
+    },
+    {
+      "query_id": "query_0564",
+      "query": "How to use list comprehensions?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 982
+    },
+    {
+      "query_id": "query_0565",
+      "query": "What is the difference between list and tuple?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 599
+    },
+    {
+      "query_id": "query_0566",
+      "query": "How do I sort a dictionary by value?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 1222
+    },
+    {
+      "query_id": "query_0567",
+      "query": "What is event delegation?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 266
+    },
+    {
+      "query_id": "query_0568",
+      "query": "What is normalization?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1428
+    },
+    {
+      "query_id": "query_0569",
+      "query": "How to manipulate the DOM?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 1413
+    },
+    {
+      "query_id": "query_0570",
+      "query": "How to deep clone an object?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 1098
+    },
+    {
+      "query_id": "query_0571",
+      "query": "What are Python generators?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 624
+    },
+    {
+      "query_id": "query_0572",
+      "query": "How to use arrow functions?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 386
+    },
+    {
+      "query_id": "query_0573",
+      "query": "How to use subqueries?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 726
+    },
+    {
+      "query_id": "query_0574",
+      "query": "How to use GROUP BY?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1095
+    },
+    {
+      "query_id": "query_0575",
+      "query": "What are promises in JavaScript?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1131
+    },
+    {
+      "query_id": "query_0576",
+      "query": "How to read a file line by line?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 865
+    },
+    {
+      "query_id": "query_0577",
+      "query": "What is the difference between let and var?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 594
+    },
+    {
+      "query_id": "query_0578",
+      "query": "How to resolve merge conflicts?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 854
+    },
+    {
+      "query_id": "query_0579",
+      "query": "What is Git stash?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 660
+    },
+    {
+      "query_id": "query_0580",
+      "query": "What are Python generators?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 906
+    },
+    {
+      "query_id": "query_0581",
+      "query": "How to undo the last commit?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 622
+    },
+    {
+      "query_id": "query_0582",
+      "query": "How to handle exceptions in Python?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 506
+    },
+    {
+      "query_id": "query_0583",
+      "query": "What is the this keyword?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 295
+    },
+    {
+      "query_id": "query_0584",
+      "query": "How to create a virtual environment?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 642
+    },
+    {
+      "query_id": "query_0585",
+      "query": "What is the this keyword?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 483
+    },
+    {
+      "query_id": "query_0586",
+      "query": "What is the difference between merge and rebase?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1023
+    },
+    {
+      "query_id": "query_0587",
+      "query": "How to handle exceptions in Python?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1413
+    },
+    {
+      "query_id": "query_0588",
+      "query": "What is event delegation?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 441
+    },
+    {
+      "query_id": "query_0589",
+      "query": "How to clone a repository?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 294
+    },
+    {
+      "query_id": "query_0590",
+      "query": "What is a Git branch?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 631
+    },
+    {
+      "query_id": "query_0591",
+      "query": "How to resolve merge conflicts?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 710
+    },
+    {
+      "query_id": "query_0592",
+      "query": "What are Python generators?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1088
+    },
+    {
+      "query_id": "query_0593",
+      "query": "What are stored procedures?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 400
+    },
+    {
+      "query_id": "query_0594",
+      "query": "What is Git stash?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 486
+    },
+    {
+      "query_id": "query_0595",
+      "query": "What are database indexes?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 990
+    },
+    {
+      "query_id": "query_0596",
+      "query": "What is the difference between INNER and OUTER JOIN?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 687
+    },
+    {
+      "query_id": "query_0597",
+      "query": "What are Python decorators?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1480
+    },
+    {
+      "query_id": "query_0598",
+      "query": "What is the difference between == and is?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 310
+    },
+    {
+      "query_id": "query_0599",
+      "query": "How do closures work in JavaScript?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 1013
+    },
+    {
+      "query_id": "query_0600",
+      "query": "How to use async/await?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 342
+    },
+    {
+      "query_id": "query_0601",
+      "query": "How to use async/await?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 333
+    },
+    {
+      "query_id": "query_0602",
+      "query": "How to read a file line by line?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 920
+    },
+    {
+      "query_id": "query_0603",
+      "query": "How to create a pull request?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 920
+    },
+    {
+      "query_id": "query_0604",
+      "query": "What are JavaScript modules?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 630
+    },
+    {
+      "query_id": "query_0605",
+      "query": "What is the GIL in Python?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1001
+    },
+    {
+      "query_id": "query_0606",
+      "query": "How to optimize SQL queries?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1073
+    },
+    {
+      "query_id": "query_0607",
+      "query": "What are Git hooks?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 536
+    },
+    {
+      "query_id": "query_0608",
+      "query": "How to handle exceptions in Python?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 729
+    },
+    {
+      "query_id": "query_0609",
+      "query": "How to use GROUP BY?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 617
+    },
+    {
+      "query_id": "query_0610",
+      "query": "What are JavaScript modules?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 652
+    },
+    {
+      "query_id": "query_0611",
+      "query": "What is the difference between == and is?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 382
+    },
+    {
+      "query_id": "query_0612",
+      "query": "What is event delegation?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 310
+    },
+    {
+      "query_id": "query_0613",
+      "query": "What is the difference between merge and rebase?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1046
+    },
+    {
+      "query_id": "query_0614",
+      "query": "What is the difference between let and var?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 839
+    },
+    {
+      "query_id": "query_0615",
+      "query": "What is the difference between INNER and OUTER JOIN?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 258
+    },
+    {
+      "query_id": "query_0616",
+      "query": "How to use arrow functions?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 650
+    },
+    {
+      "query_id": "query_0617",
+      "query": "What is the difference between let and var?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 357
+    },
+    {
+      "query_id": "query_0618",
+      "query": "How to use async/await?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 389
+    },
+    {
+      "query_id": "query_0619",
+      "query": "What is the difference between list and tuple?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 860
+    },
+    {
+      "query_id": "query_0620",
+      "query": "What are JavaScript modules?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 637
+    },
+    {
+      "query_id": "query_0621",
+      "query": "What is the difference between INNER and OUTER JOIN?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 513
+    },
+    {
+      "query_id": "query_0622",
+      "query": "What is the difference between INNER and OUTER JOIN?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 920
+    },
+    {
+      "query_id": "query_0623",
+      "query": "How to deep clone an object?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 1127
+    },
+    {
+      "query_id": "query_0624",
+      "query": "What is the difference between let and var?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 372
+    },
+    {
+      "query_id": "query_0625",
+      "query": "What are JavaScript modules?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 482
+    },
+    {
+      "query_id": "query_0626",
+      "query": "What is the difference between let and var?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1272
+    },
+    {
+      "query_id": "query_0627",
+      "query": "What are Python generators?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 849
+    },
+    {
+      "query_id": "query_0628",
+      "query": "What are stored procedures?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 796
+    },
+    {
+      "query_id": "query_0629",
+      "query": "How do closures work in JavaScript?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 978
+    },
+    {
+      "query_id": "query_0630",
+      "query": "What is the GIL in Python?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1340
+    },
+    {
+      "query_id": "query_0631",
+      "query": "How to optimize SQL queries?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1089
+    },
+    {
+      "query_id": "query_0632",
+      "query": "What are JavaScript modules?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 523
+    },
+    {
+      "query_id": "query_0633",
+      "query": "How to clone a repository?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 575
+    },
+    {
+      "query_id": "query_0634",
+      "query": "How to create a pull request?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 897
+    },
+    {
+      "query_id": "query_0635",
+      "query": "How to use async/await?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 385
+    },
+    {
+      "query_id": "query_0636",
+      "query": "How to deep clone an object?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 902
+    },
+    {
+      "query_id": "query_0637",
+      "query": "How to handle exceptions in Python?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1216
+    },
+    {
+      "query_id": "query_0638",
+      "query": "What are JavaScript modules?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 590
+    },
+    {
+      "query_id": "query_0639",
+      "query": "What are database indexes?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 788
+    },
+    {
+      "query_id": "query_0640",
+      "query": "What are Git hooks?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 404
+    },
+    {
+      "query_id": "query_0641",
+      "query": "How to view commit history?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 767
+    },
+    {
+      "query_id": "query_0642",
+      "query": "What are JavaScript modules?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 622
+    },
+    {
+      "query_id": "query_0643",
+      "query": "What are JavaScript modules?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 636
+    },
+    {
+      "query_id": "query_0644",
+      "query": "What is the GIL in Python?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1011
+    },
+    {
+      "query_id": "query_0645",
+      "query": "What is the difference between merge and rebase?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 867
+    },
+    {
+      "query_id": "query_0646",
+      "query": "How to undo the last commit?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 593
+    },
+    {
+      "query_id": "query_0647",
+      "query": "What is the this keyword?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 396
+    },
+    {
+      "query_id": "query_0648",
+      "query": "What are stored procedures?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 590
+    },
+    {
+      "query_id": "query_0649",
+      "query": "What is a transaction?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 259
+    },
+    {
+      "query_id": "query_0650",
+      "query": "How to handle exceptions in Python?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 844
+    },
+    {
+      "query_id": "query_0651",
+      "query": "How to use GROUP BY?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 840
+    },
+    {
+      "query_id": "query_0652",
+      "query": "How to deep clone an object?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1167
+    },
+    {
+      "query_id": "query_0653",
+      "query": "What is the difference between pull and fetch?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 386
+    },
+    {
+      "query_id": "query_0654",
+      "query": "How do closures work in JavaScript?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1106
+    },
+    {
+      "query_id": "query_0655",
+      "query": "How do closures work in JavaScript?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1425
+    },
+    {
+      "query_id": "query_0656",
+      "query": "What is Git stash?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 639
+    },
+    {
+      "query_id": "query_0657",
+      "query": "What are stored procedures?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 998
+    },
+    {
+      "query_id": "query_0658",
+      "query": "What is Git stash?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 1118
+    },
+    {
+      "query_id": "query_0659",
+      "query": "What are Git hooks?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 451
+    },
+    {
+      "query_id": "query_0660",
+      "query": "How to use arrow functions?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 582
+    },
+    {
+      "query_id": "query_0661",
+      "query": "What are stored procedures?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 592
+    },
+    {
+      "query_id": "query_0662",
+      "query": "What is the difference between INNER and OUTER JOIN?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 726
+    },
+    {
+      "query_id": "query_0663",
+      "query": "What is the difference between merge and rebase?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 303
+    },
+    {
+      "query_id": "query_0664",
+      "query": "How to use GROUP BY?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 823
+    },
+    {
+      "query_id": "query_0665",
+      "query": "What is a transaction?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 317
+    },
+    {
+      "query_id": "query_0666",
+      "query": "How to create a virtual environment?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 799
+    },
+    {
+      "query_id": "query_0667",
+      "query": "How to manipulate the DOM?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 932
+    },
+    {
+      "query_id": "query_0668",
+      "query": "What are JavaScript modules?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 638
+    },
+    {
+      "query_id": "query_0669",
+      "query": "How do closures work in JavaScript?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1211
+    },
+    {
+      "query_id": "query_0670",
+      "query": "How to resolve merge conflicts?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 758
+    },
+    {
+      "query_id": "query_0671",
+      "query": "How to resolve merge conflicts?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 786
+    },
+    {
+      "query_id": "query_0672",
+      "query": "How to create a pull request?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 618
+    },
+    {
+      "query_id": "query_0673",
+      "query": "How to undo the last commit?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 629
+    },
+    {
+      "query_id": "query_0674",
+      "query": "What are stored procedures?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 812
+    },
+    {
+      "query_id": "query_0675",
+      "query": "What is the difference between == and is?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1066
+    },
+    {
+      "query_id": "query_0676",
+      "query": "How to resolve merge conflicts?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 915
+    },
+    {
+      "query_id": "query_0677",
+      "query": "How to optimize SQL queries?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 697
+    },
+    {
+      "query_id": "query_0678",
+      "query": "How to clone a repository?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 341
+    },
+    {
+      "query_id": "query_0679",
+      "query": "How do I sort a dictionary by value?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1055
+    },
+    {
+      "query_id": "query_0680",
+      "query": "How do I sort a dictionary by value?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1144
+    },
+    {
+      "query_id": "query_0681",
+      "query": "What are stored procedures?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 768
+    },
+    {
+      "query_id": "query_0682",
+      "query": "How to optimize SQL queries?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 879
+    },
+    {
+      "query_id": "query_0683",
+      "query": "How to use subqueries?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 528
+    },
+    {
+      "query_id": "query_0684",
+      "query": "What are JavaScript modules?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 713
+    },
+    {
+      "query_id": "query_0685",
+      "query": "How to clone a repository?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 293
+    },
+    {
+      "query_id": "query_0686",
+      "query": "What are promises in JavaScript?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 876
+    },
+    {
+      "query_id": "query_0687",
+      "query": "What is event delegation?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 279
+    },
+    {
+      "query_id": "query_0688",
+      "query": "How to view commit history?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 688
+    },
+    {
+      "query_id": "query_0689",
+      "query": "How to use GROUP BY?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 718
+    },
+    {
+      "query_id": "query_0690",
+      "query": "What is the GIL in Python?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1391
+    },
+    {
+      "query_id": "query_0691",
+      "query": "How do I sort a dictionary by value?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 897
+    },
+    {
+      "query_id": "query_0692",
+      "query": "How to manipulate the DOM?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1216
+    },
+    {
+      "query_id": "query_0693",
+      "query": "What is a transaction?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1044
+    },
+    {
+      "query_id": "query_0694",
+      "query": "What is a transaction?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 270
+    },
+    {
+      "query_id": "query_0695",
+      "query": "What is the difference between pull and fetch?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 375
+    },
+    {
+      "query_id": "query_0696",
+      "query": "What is the difference between == and is?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 848
+    },
+    {
+      "query_id": "query_0697",
+      "query": "How do I sort a dictionary by value?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 566
+    },
+    {
+      "query_id": "query_0698",
+      "query": "How to use async/await?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 315
+    },
+    {
+      "query_id": "query_0699",
+      "query": "What are database indexes?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 947
+    },
+    {
+      "query_id": "query_0700",
+      "query": "What are Git hooks?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 606
+    },
+    {
+      "query_id": "query_0701",
+      "query": "What is normalization?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1054
+    },
+    {
+      "query_id": "query_0702",
+      "query": "How to use async/await?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 350
+    },
+    {
+      "query_id": "query_0703",
+      "query": "What is a transaction?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 660
+    },
+    {
+      "query_id": "query_0704",
+      "query": "What is Git stash?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 375
+    },
+    {
+      "query_id": "query_0705",
+      "query": "How to handle exceptions in Python?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1373
+    },
+    {
+      "query_id": "query_0706",
+      "query": "What is the difference between INNER and OUTER JOIN?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 596
+    },
+    {
+      "query_id": "query_0707",
+      "query": "How to use arrow functions?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 853
+    },
+    {
+      "query_id": "query_0708",
+      "query": "What are promises in JavaScript?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1080
+    },
+    {
+      "query_id": "query_0709",
+      "query": "What is the GIL in Python?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 745
+    },
+    {
+      "query_id": "query_0710",
+      "query": "What are Python generators?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1151
+    },
+    {
+      "query_id": "query_0711",
+      "query": "How to use subqueries?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 683
+    },
+    {
+      "query_id": "query_0712",
+      "query": "How to use async/await?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 456
+    },
+    {
+      "query_id": "query_0713",
+      "query": "How to manipulate the DOM?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 852
+    },
+    {
+      "query_id": "query_0714",
+      "query": "What is the difference between INNER and OUTER JOIN?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 761
+    },
+    {
+      "query_id": "query_0715",
+      "query": "What is Git stash?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 592
+    },
+    {
+      "query_id": "query_0716",
+      "query": "What are database indexes?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1060
+    },
+    {
+      "query_id": "query_0717",
+      "query": "How to use list comprehensions?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 856
+    },
+    {
+      "query_id": "query_0718",
+      "query": "What are stored procedures?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 984
+    },
+    {
+      "query_id": "query_0719",
+      "query": "What is the difference between pull and fetch?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 349
+    },
+    {
+      "query_id": "query_0720",
+      "query": "How to use GROUP BY?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 627
+    },
+    {
+      "query_id": "query_0721",
+      "query": "How to use async/await?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 388
+    },
+    {
+      "query_id": "query_0722",
+      "query": "How to use GROUP BY?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1181
+    },
+    {
+      "query_id": "query_0723",
+      "query": "What are Python generators?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 697
+    },
+    {
+      "query_id": "query_0724",
+      "query": "What are promises in JavaScript?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 1302
+    },
+    {
+      "query_id": "query_0725",
+      "query": "What are stored procedures?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 960
+    },
+    {
+      "query_id": "query_0726",
+      "query": "How to use async/await?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 392
+    },
+    {
+      "query_id": "query_0727",
+      "query": "What are Python decorators?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 646
+    },
+    {
+      "query_id": "query_0728",
+      "query": "How to use list comprehensions?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1221
+    },
+    {
+      "query_id": "query_0729",
+      "query": "How to use arrow functions?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 778
+    },
+    {
+      "query_id": "query_0730",
+      "query": "How to read a file line by line?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1260
+    },
+    {
+      "query_id": "query_0731",
+      "query": "What is normalization?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 690
+    },
+    {
+      "query_id": "query_0732",
+      "query": "What are Python generators?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1087
+    },
+    {
+      "query_id": "query_0733",
+      "query": "What is normalization?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1000
+    },
+    {
+      "query_id": "query_0734",
+      "query": "How to clone a repository?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 356
+    },
+    {
+      "query_id": "query_0735",
+      "query": "How to prevent SQL injection?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 935
+    },
+    {
+      "query_id": "query_0736",
+      "query": "How to resolve merge conflicts?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 499
+    },
+    {
+      "query_id": "query_0737",
+      "query": "How to use arrow functions?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 697
+    },
+    {
+      "query_id": "query_0738",
+      "query": "How do I sort a dictionary by value?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1265
+    },
+    {
+      "query_id": "query_0739",
+      "query": "What is the this keyword?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 382
+    },
+    {
+      "query_id": "query_0740",
+      "query": "How to use list comprehensions?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 499
+    },
+    {
+      "query_id": "query_0741",
+      "query": "How to create a pull request?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 989
+    },
+    {
+      "query_id": "query_0742",
+      "query": "How to create a virtual environment?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 748
+    },
+    {
+      "query_id": "query_0743",
+      "query": "How do I sort a dictionary by value?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 794
+    },
+    {
+      "query_id": "query_0744",
+      "query": "What are promises in JavaScript?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1106
+    },
+    {
+      "query_id": "query_0745",
+      "query": "How to use GROUP BY?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 553
+    },
+    {
+      "query_id": "query_0746",
+      "query": "What is event delegation?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 346
+    },
+    {
+      "query_id": "query_0747",
+      "query": "How to create a virtual environment?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 633
+    },
+    {
+      "query_id": "query_0748",
+      "query": "How to use list comprehensions?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1145
+    },
+    {
+      "query_id": "query_0749",
+      "query": "How to use list comprehensions?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 737
+    },
+    {
+      "query_id": "query_0750",
+      "query": "How to use subqueries?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 745
+    },
+    {
+      "query_id": "query_0751",
+      "query": "What is the difference between pull and fetch?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 944
+    },
+    {
+      "query_id": "query_0752",
+      "query": "How to use arrow functions?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 518
+    },
+    {
+      "query_id": "query_0753",
+      "query": "How to use GROUP BY?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 634
+    },
+    {
+      "query_id": "query_0754",
+      "query": "How to use subqueries?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 877
+    },
+    {
+      "query_id": "query_0755",
+      "query": "How to read a file line by line?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 433
+    },
+    {
+      "query_id": "query_0756",
+      "query": "What are Python generators?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 939
+    },
+    {
+      "query_id": "query_0757",
+      "query": "What are promises in JavaScript?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1002
+    },
+    {
+      "query_id": "query_0758",
+      "query": "What is the difference between list and tuple?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 801
+    },
+    {
+      "query_id": "query_0759",
+      "query": "How to resolve merge conflicts?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1250
+    },
+    {
+      "query_id": "query_0760",
+      "query": "What are promises in JavaScript?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1177
+    },
+    {
+      "query_id": "query_0761",
+      "query": "What are stored procedures?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 645
+    },
+    {
+      "query_id": "query_0762",
+      "query": "How to resolve merge conflicts?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 909
+    },
+    {
+      "query_id": "query_0763",
+      "query": "What is the GIL in Python?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 998
+    },
+    {
+      "query_id": "query_0764",
+      "query": "How to view commit history?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1051
+    },
+    {
+      "query_id": "query_0765",
+      "query": "What is the this keyword?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 434
+    },
+    {
+      "query_id": "query_0766",
+      "query": "How to manipulate the DOM?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1692
+    },
+    {
+      "query_id": "query_0767",
+      "query": "What is event delegation?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 285
+    },
+    {
+      "query_id": "query_0768",
+      "query": "What is the difference between INNER and OUTER JOIN?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 489
+    },
+    {
+      "query_id": "query_0769",
+      "query": "What is the this keyword?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 593
+    },
+    {
+      "query_id": "query_0770",
+      "query": "What are Git hooks?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 416
+    },
+    {
+      "query_id": "query_0771",
+      "query": "What is the difference between == and is?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1038
+    },
+    {
+      "query_id": "query_0772",
+      "query": "How to use GROUP BY?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 637
+    },
+    {
+      "query_id": "query_0773",
+      "query": "How to prevent SQL injection?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 862
+    },
+    {
+      "query_id": "query_0774",
+      "query": "What is the difference between pull and fetch?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 668
+    },
+    {
+      "query_id": "query_0775",
+      "query": "What is Git stash?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 977
+    },
+    {
+      "query_id": "query_0776",
+      "query": "How to read a file line by line?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 733
+    },
+    {
+      "query_id": "query_0777",
+      "query": "What is Git stash?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 311
+    },
+    {
+      "query_id": "query_0778",
+      "query": "What is event delegation?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 448
+    },
+    {
+      "query_id": "query_0779",
+      "query": "How to use list comprehensions?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 672
+    },
+    {
+      "query_id": "query_0780",
+      "query": "What are Python generators?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1146
+    },
+    {
+      "query_id": "query_0781",
+      "query": "What is the difference between pull and fetch?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 411
+    },
+    {
+      "query_id": "query_0782",
+      "query": "How do I sort a dictionary by value?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 761
+    },
+    {
+      "query_id": "query_0783",
+      "query": "How to use arrow functions?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 545
+    },
+    {
+      "query_id": "query_0784",
+      "query": "What is the difference between INNER and OUTER JOIN?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 501
+    },
+    {
+      "query_id": "query_0785",
+      "query": "What is the difference between let and var?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 526
+    },
+    {
+      "query_id": "query_0786",
+      "query": "What are Python generators?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 920
+    },
+    {
+      "query_id": "query_0787",
+      "query": "What is event delegation?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 269
+    },
+    {
+      "query_id": "query_0788",
+      "query": "How to undo the last commit?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 844
+    },
+    {
+      "query_id": "query_0789",
+      "query": "What are Git hooks?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 883
+    },
+    {
+      "query_id": "query_0790",
+      "query": "How to deep clone an object?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 1155
+    },
+    {
+      "query_id": "query_0791",
+      "query": "What is normalization?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 938
+    },
+    {
+      "query_id": "query_0792",
+      "query": "How to use arrow functions?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 534
+    },
+    {
+      "query_id": "query_0793",
+      "query": "How to optimize SQL queries?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 887
+    },
+    {
+      "query_id": "query_0794",
+      "query": "How to resolve merge conflicts?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 848
+    },
+    {
+      "query_id": "query_0795",
+      "query": "How to create a pull request?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 672
+    },
+    {
+      "query_id": "query_0796",
+      "query": "How to optimize SQL queries?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 771
+    },
+    {
+      "query_id": "query_0797",
+      "query": "What are stored procedures?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 959
+    },
+    {
+      "query_id": "query_0798",
+      "query": "How to optimize SQL queries?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 670
+    },
+    {
+      "query_id": "query_0799",
+      "query": "What is normalization?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 717
+    },
+    {
+      "query_id": "query_0800",
+      "query": "What are Git hooks?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 908
+    },
+    {
+      "query_id": "query_0801",
+      "query": "What is the GIL in Python?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 752
+    },
+    {
+      "query_id": "query_0802",
+      "query": "What are JavaScript modules?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 785
+    },
+    {
+      "query_id": "query_0803",
+      "query": "What is the difference between merge and rebase?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 290
+    },
+    {
+      "query_id": "query_0804",
+      "query": "How to read a file line by line?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 625
+    },
+    {
+      "query_id": "query_0805",
+      "query": "What are promises in JavaScript?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1115
+    },
+    {
+      "query_id": "query_0806",
+      "query": "How to optimize SQL queries?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1529
+    },
+    {
+      "query_id": "query_0807",
+      "query": "How to handle exceptions in Python?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 549
+    },
+    {
+      "query_id": "query_0808",
+      "query": "What are stored procedures?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 910
+    },
+    {
+      "query_id": "query_0809",
+      "query": "How to optimize SQL queries?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1275
+    },
+    {
+      "query_id": "query_0810",
+      "query": "How to deep clone an object?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 1406
+    },
+    {
+      "query_id": "query_0811",
+      "query": "What is the difference between pull and fetch?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 588
+    },
+    {
+      "query_id": "query_0812",
+      "query": "What is the this keyword?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 321
+    },
+    {
+      "query_id": "query_0813",
+      "query": "How to use async/await?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 536
+    },
+    {
+      "query_id": "query_0814",
+      "query": "How to create a virtual environment?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 653
+    },
+    {
+      "query_id": "query_0815",
+      "query": "What are JavaScript modules?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 539
+    },
+    {
+      "query_id": "query_0816",
+      "query": "How to handle exceptions in Python?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1153
+    },
+    {
+      "query_id": "query_0817",
+      "query": "How to read a file line by line?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1038
+    },
+    {
+      "query_id": "query_0818",
+      "query": "What are Python generators?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 942
+    },
+    {
+      "query_id": "query_0819",
+      "query": "How to use subqueries?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 582
+    },
+    {
+      "query_id": "query_0820",
+      "query": "How to resolve merge conflicts?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1115
+    },
+    {
+      "query_id": "query_0821",
+      "query": "How to view commit history?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1032
+    },
+    {
+      "query_id": "query_0822",
+      "query": "How to use subqueries?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 724
+    },
+    {
+      "query_id": "query_0823",
+      "query": "What are Python decorators?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 717
+    },
+    {
+      "query_id": "query_0824",
+      "query": "How to optimize SQL queries?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1146
+    },
+    {
+      "query_id": "query_0825",
+      "query": "What is the GIL in Python?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 872
+    },
+    {
+      "query_id": "query_0826",
+      "query": "What is normalization?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1188
+    },
+    {
+      "query_id": "query_0827",
+      "query": "How do closures work in JavaScript?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 880
+    },
+    {
+      "query_id": "query_0828",
+      "query": "What is the difference between merge and rebase?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1182
+    },
+    {
+      "query_id": "query_0829",
+      "query": "What is the this keyword?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 353
+    },
+    {
+      "query_id": "query_0830",
+      "query": "What is the difference between list and tuple?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 793
+    },
+    {
+      "query_id": "query_0831",
+      "query": "How to use arrow functions?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 437
+    },
+    {
+      "query_id": "query_0832",
+      "query": "What is the difference between == and is?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 679
+    },
+    {
+      "query_id": "query_0833",
+      "query": "How to clone a repository?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 387
+    },
+    {
+      "query_id": "query_0834",
+      "query": "What is a Git branch?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 549
+    },
+    {
+      "query_id": "query_0835",
+      "query": "What is the difference between == and is?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 922
+    },
+    {
+      "query_id": "query_0836",
+      "query": "How to prevent SQL injection?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 754
+    },
+    {
+      "query_id": "query_0837",
+      "query": "How to resolve merge conflicts?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1041
+    },
+    {
+      "query_id": "query_0838",
+      "query": "What is normalization?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 752
+    },
+    {
+      "query_id": "query_0839",
+      "query": "How to write a JOIN query?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 748
+    },
+    {
+      "query_id": "query_0840",
+      "query": "How to use list comprehensions?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 908
+    },
+    {
+      "query_id": "query_0841",
+      "query": "What is the difference between let and var?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 373
+    },
+    {
+      "query_id": "query_0842",
+      "query": "What are JavaScript modules?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 468
+    },
+    {
+      "query_id": "query_0843",
+      "query": "How to handle exceptions in Python?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 728
+    },
+    {
+      "query_id": "query_0844",
+      "query": "How to write a JOIN query?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 820
+    },
+    {
+      "query_id": "query_0845",
+      "query": "How to create a virtual environment?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 880
+    },
+    {
+      "query_id": "query_0846",
+      "query": "What is the difference between list and tuple?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1104
+    },
+    {
+      "query_id": "query_0847",
+      "query": "What is normalization?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 852
+    },
+    {
+      "query_id": "query_0848",
+      "query": "How to view commit history?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1114
+    },
+    {
+      "query_id": "query_0849",
+      "query": "What is the this keyword?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 489
+    },
+    {
+      "query_id": "query_0850",
+      "query": "How to clone a repository?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 454
+    },
+    {
+      "query_id": "query_0851",
+      "query": "How to optimize SQL queries?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1145
+    },
+    {
+      "query_id": "query_0852",
+      "query": "How to resolve merge conflicts?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 896
+    },
+    {
+      "query_id": "query_0853",
+      "query": "How to use async/await?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 357
+    },
+    {
+      "query_id": "query_0854",
+      "query": "What is event delegation?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 327
+    },
+    {
+      "query_id": "query_0855",
+      "query": "What is Git stash?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 718
+    },
+    {
+      "query_id": "query_0856",
+      "query": "What are promises in JavaScript?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 791
+    },
+    {
+      "query_id": "query_0857",
+      "query": "How to use GROUP BY?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 548
+    },
+    {
+      "query_id": "query_0858",
+      "query": "What are JavaScript modules?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 886
+    },
+    {
+      "query_id": "query_0859",
+      "query": "What are Git hooks?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 400
+    },
+    {
+      "query_id": "query_0860",
+      "query": "How to use subqueries?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 528
+    },
+    {
+      "query_id": "query_0861",
+      "query": "How to optimize SQL queries?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 450
+    },
+    {
+      "query_id": "query_0862",
+      "query": "What are promises in JavaScript?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1228
+    },
+    {
+      "query_id": "query_0863",
+      "query": "What is the difference between list and tuple?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1215
+    },
+    {
+      "query_id": "query_0864",
+      "query": "What are stored procedures?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 973
+    },
+    {
+      "query_id": "query_0865",
+      "query": "What are JavaScript modules?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 584
+    },
+    {
+      "query_id": "query_0866",
+      "query": "What are Git hooks?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1056
+    },
+    {
+      "query_id": "query_0867",
+      "query": "How to manipulate the DOM?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1053
+    },
+    {
+      "query_id": "query_0868",
+      "query": "What is the GIL in Python?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1202
+    },
+    {
+      "query_id": "query_0869",
+      "query": "How to clone a repository?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 301
+    },
+    {
+      "query_id": "query_0870",
+      "query": "How to resolve merge conflicts?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1088
+    },
+    {
+      "query_id": "query_0871",
+      "query": "What is the difference between == and is?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 620
+    },
+    {
+      "query_id": "query_0872",
+      "query": "How to create a virtual environment?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 698
+    },
+    {
+      "query_id": "query_0873",
+      "query": "What are Python decorators?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1061
+    },
+    {
+      "query_id": "query_0874",
+      "query": "How to optimize SQL queries?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 761
+    },
+    {
+      "query_id": "query_0875",
+      "query": "What are Python decorators?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 854
+    },
+    {
+      "query_id": "query_0876",
+      "query": "What is the difference between == and is?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 927
+    },
+    {
+      "query_id": "query_0877",
+      "query": "How to use async/await?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 454
+    },
+    {
+      "query_id": "query_0878",
+      "query": "What is a Git branch?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 316
+    },
+    {
+      "query_id": "query_0879",
+      "query": "How to create a pull request?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 787
+    },
+    {
+      "query_id": "query_0880",
+      "query": "How do I sort a dictionary by value?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 491
+    },
+    {
+      "query_id": "query_0881",
+      "query": "What are Python generators?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 623
+    },
+    {
+      "query_id": "query_0882",
+      "query": "How do I sort a dictionary by value?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1065
+    },
+    {
+      "query_id": "query_0883",
+      "query": "What is Git stash?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 765
+    },
+    {
+      "query_id": "query_0884",
+      "query": "How to write a JOIN query?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 595
+    },
+    {
+      "query_id": "query_0885",
+      "query": "How to view commit history?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 742
+    },
+    {
+      "query_id": "query_0886",
+      "query": "What is event delegation?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 325
+    },
+    {
+      "query_id": "query_0887",
+      "query": "What is the difference between INNER and OUTER JOIN?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 467
+    },
+    {
+      "query_id": "query_0888",
+      "query": "How do closures work in JavaScript?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 982
+    },
+    {
+      "query_id": "query_0889",
+      "query": "What is the difference between list and tuple?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 966
+    },
+    {
+      "query_id": "query_0890",
+      "query": "How to write a JOIN query?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 465
+    },
+    {
+      "query_id": "query_0891",
+      "query": "What is the GIL in Python?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1299
+    },
+    {
+      "query_id": "query_0892",
+      "query": "What are database indexes?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1292
+    },
+    {
+      "query_id": "query_0893",
+      "query": "What are Python generators?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1103
+    },
+    {
+      "query_id": "query_0894",
+      "query": "How to create a virtual environment?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 625
+    },
+    {
+      "query_id": "query_0895",
+      "query": "What is Git stash?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 261
+    },
+    {
+      "query_id": "query_0896",
+      "query": "What is normalization?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 672
+    },
+    {
+      "query_id": "query_0897",
+      "query": "How do closures work in JavaScript?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1021
+    },
+    {
+      "query_id": "query_0898",
+      "query": "What is the difference between merge and rebase?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 483
+    },
+    {
+      "query_id": "query_0899",
+      "query": "What is the GIL in Python?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1047
+    },
+    {
+      "query_id": "query_0900",
+      "query": "How to manipulate the DOM?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1093
+    },
+    {
+      "query_id": "query_0901",
+      "query": "How to resolve merge conflicts?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 910
+    },
+    {
+      "query_id": "query_0902",
+      "query": "How do I sort a dictionary by value?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 674
+    },
+    {
+      "query_id": "query_0903",
+      "query": "What is Git stash?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 937
+    },
+    {
+      "query_id": "query_0904",
+      "query": "What is normalization?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 683
+    },
+    {
+      "query_id": "query_0905",
+      "query": "How to optimize SQL queries?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 648
+    },
+    {
+      "query_id": "query_0906",
+      "query": "How to use subqueries?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1576
+    },
+    {
+      "query_id": "query_0907",
+      "query": "What are database indexes?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 949
+    },
+    {
+      "query_id": "query_0908",
+      "query": "How to create a pull request?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 836
+    },
+    {
+      "query_id": "query_0909",
+      "query": "What is the this keyword?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 322
+    },
+    {
+      "query_id": "query_0910",
+      "query": "How to deep clone an object?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 1136
+    },
+    {
+      "query_id": "query_0911",
+      "query": "How to clone a repository?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 355
+    },
+    {
+      "query_id": "query_0912",
+      "query": "What are Python generators?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 427
+    },
+    {
+      "query_id": "query_0913",
+      "query": "How to use GROUP BY?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 389
+    },
+    {
+      "query_id": "query_0914",
+      "query": "What is the GIL in Python?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1196
+    },
+    {
+      "query_id": "query_0915",
+      "query": "What is the difference between INNER and OUTER JOIN?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 347
+    },
+    {
+      "query_id": "query_0916",
+      "query": "What is the difference between pull and fetch?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 354
+    },
+    {
+      "query_id": "query_0917",
+      "query": "How to optimize SQL queries?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1007
+    },
+    {
+      "query_id": "query_0918",
+      "query": "What are Python generators?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 824
+    },
+    {
+      "query_id": "query_0919",
+      "query": "What are Python decorators?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 741
+    },
+    {
+      "query_id": "query_0920",
+      "query": "How to create a pull request?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 653
+    },
+    {
+      "query_id": "query_0921",
+      "query": "What are JavaScript modules?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 632
+    },
+    {
+      "query_id": "query_0922",
+      "query": "How to undo the last commit?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 549
+    },
+    {
+      "query_id": "query_0923",
+      "query": "What are Git hooks?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 741
+    },
+    {
+      "query_id": "query_0924",
+      "query": "What are stored procedures?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 449
+    },
+    {
+      "query_id": "query_0925",
+      "query": "How to use async/await?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 452
+    },
+    {
+      "query_id": "query_0926",
+      "query": "What is event delegation?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 383
+    },
+    {
+      "query_id": "query_0927",
+      "query": "What is Git stash?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 497
+    },
+    {
+      "query_id": "query_0928",
+      "query": "What are Python decorators?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1042
+    },
+    {
+      "query_id": "query_0929",
+      "query": "How to view commit history?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 762
+    },
+    {
+      "query_id": "query_0930",
+      "query": "What is the difference between merge and rebase?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 975
+    },
+    {
+      "query_id": "query_0931",
+      "query": "How to view commit history?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 779
+    },
+    {
+      "query_id": "query_0932",
+      "query": "What are promises in JavaScript?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1033
+    },
+    {
+      "query_id": "query_0933",
+      "query": "What are Python generators?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 891
+    },
+    {
+      "query_id": "query_0934",
+      "query": "What is the difference between pull and fetch?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 410
+    },
+    {
+      "query_id": "query_0935",
+      "query": "What is the difference between == and is?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 506
+    },
+    {
+      "query_id": "query_0936",
+      "query": "How to use async/await?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 433
+    },
+    {
+      "query_id": "query_0937",
+      "query": "How to write a JOIN query?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 829
+    },
+    {
+      "query_id": "query_0938",
+      "query": "How to optimize SQL queries?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 580
+    },
+    {
+      "query_id": "query_0939",
+      "query": "How to create a pull request?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 359
+    },
+    {
+      "query_id": "query_0940",
+      "query": "How to manipulate the DOM?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 976
+    },
+    {
+      "query_id": "query_0941",
+      "query": "How to use subqueries?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 739
+    },
+    {
+      "query_id": "query_0942",
+      "query": "How to use GROUP BY?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 317
+    },
+    {
+      "query_id": "query_0943",
+      "query": "How to optimize SQL queries?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1210
+    },
+    {
+      "query_id": "query_0944",
+      "query": "How to write a JOIN query?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 907
+    },
+    {
+      "query_id": "query_0945",
+      "query": "What is the difference between pull and fetch?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 327
+    },
+    {
+      "query_id": "query_0946",
+      "query": "How to use list comprehensions?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 646
+    },
+    {
+      "query_id": "query_0947",
+      "query": "How to manipulate the DOM?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1478
+    },
+    {
+      "query_id": "query_0948",
+      "query": "How to resolve merge conflicts?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 896
+    },
+    {
+      "query_id": "query_0949",
+      "query": "How to create a virtual environment?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 685
+    },
+    {
+      "query_id": "query_0950",
+      "query": "What are stored procedures?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1208
+    },
+    {
+      "query_id": "query_0951",
+      "query": "What are stored procedures?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 626
+    },
+    {
+      "query_id": "query_0952",
+      "query": "How to use GROUP BY?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 350
+    },
+    {
+      "query_id": "query_0953",
+      "query": "How to undo the last commit?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 297
+    },
+    {
+      "query_id": "query_0954",
+      "query": "What are Python decorators?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 927
+    },
+    {
+      "query_id": "query_0955",
+      "query": "What are JavaScript modules?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 618
+    },
+    {
+      "query_id": "query_0956",
+      "query": "What are Python generators?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1180
+    },
+    {
+      "query_id": "query_0957",
+      "query": "What are database indexes?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 929
+    },
+    {
+      "query_id": "query_0958",
+      "query": "What are Git hooks?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 983
+    },
+    {
+      "query_id": "query_0959",
+      "query": "What is the this keyword?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 353
+    },
+    {
+      "query_id": "query_0960",
+      "query": "How to clone a repository?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 331
+    },
+    {
+      "query_id": "query_0961",
+      "query": "What is normalization?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 711
+    },
+    {
+      "query_id": "query_0962",
+      "query": "How to resolve merge conflicts?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1043
+    },
+    {
+      "query_id": "query_0963",
+      "query": "How do I sort a dictionary by value?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 2097
+    },
+    {
+      "query_id": "query_0964",
+      "query": "What is the difference between INNER and OUTER JOIN?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 614
+    },
+    {
+      "query_id": "query_0965",
+      "query": "How to write a JOIN query?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 556
+    },
+    {
+      "query_id": "query_0966",
+      "query": "How to use subqueries?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 539
+    },
+    {
+      "query_id": "query_0967",
+      "query": "What are Python decorators?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 624
+    },
+    {
+      "query_id": "query_0968",
+      "query": "How to use subqueries?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 883
+    },
+    {
+      "query_id": "query_0969",
+      "query": "How to use arrow functions?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 563
+    },
+    {
+      "query_id": "query_0970",
+      "query": "What are Git hooks?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 305
+    },
+    {
+      "query_id": "query_0971",
+      "query": "What is Git stash?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 537
+    },
+    {
+      "query_id": "query_0972",
+      "query": "How to clone a repository?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 197
+    },
+    {
+      "query_id": "query_0973",
+      "query": "What is Git stash?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 359
+    },
+    {
+      "query_id": "query_0974",
+      "query": "What is event delegation?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 291
+    },
+    {
+      "query_id": "query_0975",
+      "query": "What are promises in JavaScript?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1062
+    },
+    {
+      "query_id": "query_0976",
+      "query": "What are database indexes?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1014
+    },
+    {
+      "query_id": "query_0977",
+      "query": "What is the difference between let and var?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 671
+    },
+    {
+      "query_id": "query_0978",
+      "query": "How to view commit history?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 880
+    },
+    {
+      "query_id": "query_0979",
+      "query": "What is the GIL in Python?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 1152
+    },
+    {
+      "query_id": "query_0980",
+      "query": "What is a transaction?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 615
+    },
+    {
+      "query_id": "query_0981",
+      "query": "What is the difference between let and var?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 1024
+    },
+    {
+      "query_id": "query_0982",
+      "query": "How to resolve merge conflicts?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 836
+    },
+    {
+      "query_id": "query_0983",
+      "query": "What is the difference between let and var?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 692
+    },
+    {
+      "query_id": "query_0984",
+      "query": "How to use GROUP BY?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 414
+    },
+    {
+      "query_id": "query_0985",
+      "query": "What is normalization?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 905
+    },
+    {
+      "query_id": "query_0986",
+      "query": "How to use arrow functions?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 663
+    },
+    {
+      "query_id": "query_0987",
+      "query": "How do I sort a dictionary by value?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 847
+    },
+    {
+      "query_id": "query_0988",
+      "query": "How to view commit history?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 867
+    },
+    {
+      "query_id": "query_0989",
+      "query": "What is the this keyword?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 366
+    },
+    {
+      "query_id": "query_0990",
+      "query": "What is the difference between let and var?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 942
+    },
+    {
+      "query_id": "query_0991",
+      "query": "How to view commit history?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 738
+    },
+    {
+      "query_id": "query_0992",
+      "query": "How to use list comprehensions?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 708
+    },
+    {
+      "query_id": "query_0993",
+      "query": "How to resolve merge conflicts?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 1101
+    },
+    {
+      "query_id": "query_0994",
+      "query": "What is a Git branch?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 938
+    },
+    {
+      "query_id": "query_0995",
+      "query": "How to use arrow functions?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 610
+    },
+    {
+      "query_id": "query_0996",
+      "query": "What is event delegation?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 325
+    },
+    {
+      "query_id": "query_0997",
+      "query": "What are stored procedures?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 448
+    },
+    {
+      "query_id": "query_0998",
+      "query": "What is the difference between pull and fetch?",
+      "retrieved_docs": 5,
+      "written_back": false,
+      "response_length": 284
+    },
+    {
+      "query_id": "query_0999",
+      "query": "How to optimize SQL queries?",
+      "retrieved_docs": 5,
+      "written_back": true,
+      "response_length": 715
+    }
+  ],
+  "acceptance_stats": {
+    "total_accepted": 758,
+    "total_rejected": 0
+  },
+  "final_stats": {
+    "corpus_size": 4758,
+    "corpus_growth": 758,
+    "growth_rate": 0.1895
+  }
+}

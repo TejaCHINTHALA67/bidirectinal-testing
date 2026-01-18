@@ -1,0 +1,22 @@
+{
+  "static": {
+    "rate": 0.0,
+    "count": 0
+  },
+  "naive": {
+    "rate": 0.0,
+    "count": 0
+  },
+  "bidirectional": {
+    "rate": 0.0,
+    "count": 0
+  },
+  "naive_increase_percent": 0,
+  "bidir_increase_percent": 0,
+  "samples_analyzed": 200,
+  "hallucination_examples": {
+    "static_rag": [],
+    "naive_write-back": [],
+    "bidirectional_rag": []
+  }
+}

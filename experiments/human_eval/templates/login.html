@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+{% block title %}Login - Human Evaluation{% endblock %}
+
+{% block content %}
+<div class="card">
+    <h2>Annotator Registration / Login</h2>
+    <p style="margin-bottom: 20px;">Please provide your annotator information to begin.</p>
+    
+    {% if error %}
+    <div class="error">{{ error }}</div>
+    {% endif %}
+    
+    <form method="POST" action="/login">
+        <div class="form-group">
+            <label for="annotator_id">Annotator ID *</label>
+            <input type="text" id="annotator_id" name="annotator_id" required 
+                   placeholder="e.g., annotator_001" value="{{ request.form.get('annotator_id', '') }}">
+            <small style="color: #7f8c8d;">Unique identifier for tracking your annotations</small>
+        </div>
+        
+        <div class="form-group">
+            <label for="name">Name (Optional)</label>
+            <input type="text" id="name" name="name" 
+                   placeholder="Your name" value="{{ request.form.get('name', '') }}">
+        </div>
+        
+        <div class="form-group">
+            <label for="email">Email (Optional)</label>
+            <input type="email" id="email" name="email" 
+                   placeholder="your.email@example.com" value="{{ request.form.get('email', '') }}">
+        </div>
+        
+        <div class="form-group">
+            <label for="background">Background (Optional)</label>
+            <textarea id="background" name="background" 
+                      placeholder="e.g., ML researcher, NLP student, etc.">{{ request.form.get('background', '') }}</textarea>
+        </div>
+        
+        <button type="submit">Start Annotating</button>
+    </form>
+</div>
+{% endblock %}
+

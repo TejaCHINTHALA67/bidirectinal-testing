@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+
+{% block title %}Statistics - Human Evaluation{% endblock %}
+
+{% block content %}
+<div class="card">
+    <h2>Annotation Statistics</h2>
+    
+    <div class="stats-grid">
+        <div class="stat-card">
+            <div class="stat-value">{{ annotator_count }}</div>
+            <div class="stat-label">Your Annotations</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-value">{{ total_count }}</div>
+            <div class="stat-label">Total Annotations</div>
+        </div>
+        {% if kappa %}
+        <div class="stat-card">
+            <div class="stat-value">{{ "%.3f"|format(kappa) }}</div>
+            <div class="stat-label">Cohen's Kappa</div>
+        </div>
+        {% endif %}
+    </div>
+    
+    <h3 style="margin-top: 30px;">Annotations by System</h3>
+    <table style="width: 100%; margin-top: 20px; border-collapse: collapse;">
+        <thead>
+            <tr style="background: #ecf0f1;">
+                <th style="padding: 10px; text-align: left;">System</th>
+                <th style="padding: 10px; text-align: left;">Count</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for system, count in system_counts.items() %}
+            <tr>
+                <td style="padding: 10px; border-bottom: 1px solid #ddd;">{{ system }}</td>
+                <td style="padding: 10px; border-bottom: 1px solid #ddd;">{{ count }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    
+    <div style="margin-top: 30px;">
+        <a href="/"><button>Continue Annotating</button></a>
+        <a href="/export"><button class="btn-secondary">Export Results</button></a>
+    </div>
+</div>
+{% endblock %}
+

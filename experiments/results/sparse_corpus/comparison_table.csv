@@ -1,0 +1,4 @@
+System,Final Coverage,Coverage Gain,Corpus Size,Growth,Acceptance Rate
+Static Rag,67.00%,19.50%,2024,+0,N/A
+Naive Writeback,66.00%,12.50%,2392,+368,N/A
+Bidirectional Rag,79.50%,25.00%,2146,+122,15.25%

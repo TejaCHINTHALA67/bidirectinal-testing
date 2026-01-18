@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block title %}Complete - Human Evaluation{% endblock %}
+
+{% block content %}
+<div class="card">
+    <h2>Annotation Complete!</h2>
+    <p>Thank you for your annotations. You have completed all available tasks.</p>
+    
+    <div style="margin-top: 30px;">
+        <a href="/stats"><button>View Statistics</button></a>
+        <a href="/export"><button class="btn-secondary">Export Results</button></a>
+        <a href="/logout"><button class="btn-secondary">Logout</button></a>
+    </div>
+</div>
+{% endblock %}
+

@@ -1,0 +1,55 @@
+{
+  "bidirectional": {
+    "system": "Bidirectional RAG",
+    "total_queries": 800,
+    "grounding_metrics": {
+      "average": 0.955968822971857,
+      "low_risk_queries": 89.75,
+      "high_risk_queries": 2.125
+    },
+    "retrieval_metrics": {
+      "average_distance": 0.3735076340566886,
+      "irrelevant_retrieval": 27.125
+    },
+    "attribution_metrics": {
+      "has_attribution_rate": 55.625,
+      "missing_attribution_rate": 44.375
+    },
+    "quality_control": {
+      "acceptance_rate": 15.25,
+      "rejection_rate": 84.75
+    },
+    "response_quality": {
+      "average_length": 572.60375,
+      "short_responses": 0.125,
+      "long_responses": 0.0
+    }
+  },
+  "static": {
+    "system": "Static RAG",
+    "total_queries": 800,
+    "retrieval_metrics": {
+      "average_distance": 0.3922859681369983,
+      "irrelevant_retrieval": 28.375
+    },
+    "response_quality": {
+      "average_length": 558.24875
+    },
+    "note": "No grounding scores available (no acceptance layer)"
+  },
+  "naive": {
+    "system": "Naive Writeback",
+    "total_queries": 800,
+    "retrieval_metrics": {
+      "average_distance": 0.3694253238211951,
+      "irrelevant_retrieval": 23.875
+    },
+    "response_quality": {
+      "average_length": 566.8625
+    },
+    "writeback_metrics": {
+      "writeback_rate": 46.0
+    },
+    "note": "No grounding scores available (no acceptance layer) - HIGHER RISK"
+  }
+}

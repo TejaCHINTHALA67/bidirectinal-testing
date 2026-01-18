@@ -1,0 +1,106 @@
+{
+  "coverage_comparison": {
+    "static_rag": {
+      "initial": 0.475,
+      "final": 0.67,
+      "improvement": 0.19500000000000006,
+      "evolution": [
+        0.475,
+        0.475,
+        0.475,
+        0.475,
+        0.67
+      ]
+    },
+    "naive_writeback": {
+      "initial": 0.535,
+      "final": 0.66,
+      "improvement": 0.125,
+      "evolution": [
+        0.535,
+        0.535,
+        0.535,
+        0.66
+      ]
+    },
+    "bidirectional_rag": {
+      "initial": 0.545,
+      "final": 0.795,
+      "improvement": 0.25,
+      "evolution": [
+        0.545,
+        0.545,
+        0.545,
+        0.795
+      ]
+    }
+  },
+  "corpus_growth": {
+    "naive_writeback": {
+      "initial_size": 2024,
+      "final_size": 2392,
+      "growth": 368,
+      "growth_rate": 0.18181818181818182
+    },
+    "bidirectional_rag": {
+      "initial_size": 2024,
+      "final_size": 2146,
+      "growth": 122,
+      "growth_rate": 0.06027667984189723
+    }
+  },
+  "acceptance_analysis": {
+    "bidirectional_rag": {
+      "total_queries": 800,
+      "accepted": 122,
+      "rejected": 678,
+      "acceptance_rate": 0.1525,
+      "rejection_breakdown": {
+        "grounding": 20,
+        "attribution": 335,
+        "novelty": 323
+      }
+    }
+  },
+  "significance_tests": {
+    "static_rag vs naive_writeback": {
+      "t_statistic": NaN,
+      "p_value": NaN,
+      "significant": false,
+      "cohens_d": 0.0,
+      "coverage_diff": 0.0
+    },
+    "static_rag vs bidirectional_rag": {
+      "t_statistic": NaN,
+      "p_value": NaN,
+      "significant": false,
+      "cohens_d": 0.0,
+      "coverage_diff": 0.0
+    },
+    "naive_writeback vs bidirectional_rag": {
+      "t_statistic": NaN,
+      "p_value": NaN,
+      "significant": false,
+      "cohens_d": 0.0,
+      "coverage_diff": 0.0
+    }
+  },
+  "ablation_study": {
+    "no_grounding": {
+      "description": "No grounding check",
+      "acceptance_rate": 0.174,
+      "corpus_growth": 87
+    },
+    "no_attribution": {
+      "description": "No attribution check",
+      "acceptance_rate": 0.278,
+      "corpus_growth": 139
+    },
+    "no_novelty": {
+      "description": "No novelty check",
+      "acceptance_rate": 0.534,
+      "corpus_growth": 267
+    }
+  },
+  "timestamp": "2025-11-18T09:33:03.797049"
+}

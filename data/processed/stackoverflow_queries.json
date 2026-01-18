@@ -1,0 +1,5002 @@
+[
+  {
+    "question": "What are Python generators?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is normalization?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use subqueries?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use list comprehensions?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to optimize SQL queries?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use arrow functions?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to write a JOIN query?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to prevent SQL injection?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to view commit history?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are Python generators?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is normalization?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use async/await?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to write a JOIN query?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between == and is?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to view commit history?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to create a virtual environment?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to deep clone an object?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the GIL in Python?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between == and is?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use arrow functions?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to handle exceptions in Python?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are promises in JavaScript?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How do I sort a dictionary by value?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the this keyword?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How do closures work in JavaScript?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between == and is?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between pull and fetch?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to prevent SQL injection?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are database indexes?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the this keyword?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is a Git branch?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between merge and rebase?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between list and tuple?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are Python generators?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use arrow functions?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are Git hooks?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between list and tuple?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How do I sort a dictionary by value?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to prevent SQL injection?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is normalization?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to optimize SQL queries?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use subqueries?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to resolve merge conflicts?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is normalization?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to view commit history?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to deep clone an object?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use arrow functions?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is Git stash?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are Python decorators?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between merge and rebase?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are Git hooks?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use list comprehensions?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between list and tuple?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are database indexes?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to clone a repository?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are Git hooks?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are promises in JavaScript?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use async/await?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to deep clone an object?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to write a JOIN query?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use async/await?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to create a pull request?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use GROUP BY?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to deep clone an object?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How do closures work in JavaScript?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to create a virtual environment?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How do I sort a dictionary by value?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between let and var?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the GIL in Python?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to prevent SQL injection?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are Git hooks?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is normalization?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between list and tuple?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is event delegation?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the GIL in Python?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to optimize SQL queries?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are JavaScript modules?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between == and is?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to read a file line by line?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use subqueries?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to optimize SQL queries?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is a transaction?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are Python generators?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between list and tuple?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to read a file line by line?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to manipulate the DOM?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to prevent SQL injection?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to write a JOIN query?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use list comprehensions?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use list comprehensions?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are stored procedures?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are Python generators?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to prevent SQL injection?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to prevent SQL injection?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use subqueries?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are Python decorators?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use async/await?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between INNER and OUTER JOIN?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the this keyword?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between INNER and OUTER JOIN?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to prevent SQL injection?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is event delegation?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use GROUP BY?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between pull and fetch?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use subqueries?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is event delegation?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to write a JOIN query?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to create a pull request?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are Python generators?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use async/await?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is normalization?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is normalization?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to resolve merge conflicts?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is a Git branch?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between INNER and OUTER JOIN?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are stored procedures?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to create a virtual environment?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to prevent SQL injection?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to view commit history?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is a Git branch?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to manipulate the DOM?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are Git hooks?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to read a file line by line?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use arrow functions?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How do closures work in JavaScript?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How do I sort a dictionary by value?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between merge and rebase?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use arrow functions?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use async/await?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to manipulate the DOM?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the GIL in Python?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to handle exceptions in Python?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between == and is?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to deep clone an object?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to deep clone an object?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to handle exceptions in Python?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the this keyword?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is a transaction?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between list and tuple?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the GIL in Python?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to resolve merge conflicts?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is a Git branch?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to read a file line by line?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to clone a repository?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How do I sort a dictionary by value?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is Git stash?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to write a JOIN query?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between let and var?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use async/await?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is event delegation?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to write a JOIN query?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use list comprehensions?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to create a pull request?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the this keyword?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between merge and rebase?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between pull and fetch?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are database indexes?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between == and is?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are JavaScript modules?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to read a file line by line?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to clone a repository?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to optimize SQL queries?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How do I sort a dictionary by value?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to view commit history?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is normalization?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the this keyword?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How do closures work in JavaScript?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is Git stash?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to undo the last commit?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between INNER and OUTER JOIN?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are Git hooks?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between list and tuple?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to optimize SQL queries?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are stored procedures?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to create a virtual environment?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to read a file line by line?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to clone a repository?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the GIL in Python?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are Git hooks?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use subqueries?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to resolve merge conflicts?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How do closures work in JavaScript?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are stored procedures?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to write a JOIN query?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use arrow functions?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to clone a repository?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How do I sort a dictionary by value?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is a transaction?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between == and is?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are promises in JavaScript?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use async/await?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use list comprehensions?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between list and tuple?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use async/await?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is a transaction?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to handle exceptions in Python?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to create a pull request?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to deep clone an object?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is normalization?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How do I sort a dictionary by value?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to create a virtual environment?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use arrow functions?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to optimize SQL queries?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the GIL in Python?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between INNER and OUTER JOIN?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are Git hooks?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is a transaction?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are promises in JavaScript?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to create a virtual environment?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is a transaction?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between == and is?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to manipulate the DOM?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use subqueries?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to deep clone an object?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to resolve merge conflicts?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to handle exceptions in Python?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is a transaction?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to create a pull request?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use subqueries?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to handle exceptions in Python?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use subqueries?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are Python decorators?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use async/await?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to read a file line by line?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to create a pull request?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How do closures work in JavaScript?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to read a file line by line?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to create a virtual environment?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is normalization?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is Git stash?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to resolve merge conflicts?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between merge and rebase?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are Git hooks?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is normalization?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use async/await?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are Python decorators?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are Python decorators?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the GIL in Python?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are Git hooks?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to view commit history?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are Python generators?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is event delegation?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are promises in JavaScript?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are database indexes?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How do closures work in JavaScript?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are Python decorators?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is a transaction?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are Git hooks?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are database indexes?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is normalization?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to undo the last commit?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are stored procedures?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to deep clone an object?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is normalization?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between merge and rebase?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between let and var?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between list and tuple?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are Python decorators?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between pull and fetch?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to undo the last commit?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is normalization?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between merge and rebase?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are promises in JavaScript?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to undo the last commit?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to optimize SQL queries?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between pull and fetch?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to create a pull request?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is normalization?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to clone a repository?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use arrow functions?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to view commit history?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between INNER and OUTER JOIN?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to view commit history?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to deep clone an object?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between list and tuple?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between pull and fetch?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to view commit history?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use GROUP BY?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is a transaction?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use subqueries?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to read a file line by line?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use list comprehensions?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between INNER and OUTER JOIN?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use arrow functions?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to create a pull request?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to create a virtual environment?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between == and is?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use async/await?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to optimize SQL queries?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between pull and fetch?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between == and is?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to deep clone an object?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to create a virtual environment?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to deep clone an object?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are Python generators?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is a transaction?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are Git hooks?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use GROUP BY?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to resolve merge conflicts?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is Git stash?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to prevent SQL injection?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are Python generators?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is normalization?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is event delegation?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to undo the last commit?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are Python decorators?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use subqueries?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to manipulate the DOM?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is normalization?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use list comprehensions?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between == and is?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use subqueries?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to clone a repository?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are JavaScript modules?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are JavaScript modules?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are JavaScript modules?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are Python generators?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How do I sort a dictionary by value?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between merge and rebase?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to manipulate the DOM?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is normalization?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to prevent SQL injection?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is a transaction?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between list and tuple?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between let and var?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is a Git branch?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between let and var?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to create a virtual environment?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are Python decorators?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use GROUP BY?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between let and var?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to view commit history?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to resolve merge conflicts?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the this keyword?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between == and is?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are stored procedures?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are database indexes?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to create a virtual environment?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between INNER and OUTER JOIN?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to write a JOIN query?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is Git stash?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is a transaction?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use async/await?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use async/await?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between merge and rebase?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is normalization?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is normalization?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How do I sort a dictionary by value?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are promises in JavaScript?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use async/await?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between merge and rebase?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between list and tuple?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to resolve merge conflicts?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How do closures work in JavaScript?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to undo the last commit?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between pull and fetch?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are Python generators?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How do closures work in JavaScript?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are promises in JavaScript?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use list comprehensions?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between list and tuple?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to clone a repository?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to deep clone an object?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between merge and rebase?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between == and is?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use list comprehensions?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is a Git branch?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to resolve merge conflicts?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to create a pull request?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between pull and fetch?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is event delegation?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are Python decorators?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use list comprehensions?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use GROUP BY?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to create a pull request?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between pull and fetch?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to prevent SQL injection?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How do I sort a dictionary by value?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to manipulate the DOM?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How do I sort a dictionary by value?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is Git stash?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to read a file line by line?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to deep clone an object?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to prevent SQL injection?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between INNER and OUTER JOIN?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to undo the last commit?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between == and is?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is a Git branch?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use subqueries?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to view commit history?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to create a pull request?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to create a virtual environment?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are stored procedures?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to optimize SQL queries?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use subqueries?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to undo the last commit?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to handle exceptions in Python?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to prevent SQL injection?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to clone a repository?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use list comprehensions?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use list comprehensions?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is normalization?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to create a virtual environment?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to undo the last commit?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How do I sort a dictionary by value?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between INNER and OUTER JOIN?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How do closures work in JavaScript?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to manipulate the DOM?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between INNER and OUTER JOIN?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are promises in JavaScript?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to resolve merge conflicts?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are stored procedures?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to prevent SQL injection?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between let and var?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use list comprehensions?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use list comprehensions?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are database indexes?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to view commit history?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is Git stash?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between INNER and OUTER JOIN?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to view commit history?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to view commit history?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between INNER and OUTER JOIN?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are Git hooks?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to read a file line by line?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to resolve merge conflicts?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to clone a repository?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to undo the last commit?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are stored procedures?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to optimize SQL queries?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use subqueries?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between pull and fetch?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to undo the last commit?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to manipulate the DOM?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use list comprehensions?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between == and is?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to view commit history?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between let and var?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to undo the last commit?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to read a file line by line?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are Python generators?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to resolve merge conflicts?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to resolve merge conflicts?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are Python decorators?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is Git stash?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is a transaction?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to read a file line by line?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to handle exceptions in Python?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the this keyword?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are stored procedures?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use GROUP BY?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the GIL in Python?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are Git hooks?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use GROUP BY?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is a Git branch?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is a Git branch?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use arrow functions?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are Git hooks?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is a transaction?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How do I sort a dictionary by value?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are Python decorators?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use async/await?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the this keyword?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use list comprehensions?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to manipulate the DOM?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are database indexes?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to deep clone an object?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to optimize SQL queries?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to manipulate the DOM?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use async/await?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to write a JOIN query?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to clone a repository?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are Python decorators?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to prevent SQL injection?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to view commit history?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to manipulate the DOM?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between INNER and OUTER JOIN?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between INNER and OUTER JOIN?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to create a pull request?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are Python generators?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How do closures work in JavaScript?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between let and var?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between merge and rebase?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use subqueries?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to deep clone an object?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to write a JOIN query?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to handle exceptions in Python?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use arrow functions?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between list and tuple?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to deep clone an object?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use arrow functions?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to undo the last commit?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to resolve merge conflicts?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is normalization?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use subqueries?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are promises in JavaScript?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to resolve merge conflicts?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to undo the last commit?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to handle exceptions in Python?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use arrow functions?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to clone a repository?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are JavaScript modules?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use list comprehensions?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between pull and fetch?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to create a virtual environment?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are Python decorators?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between merge and rebase?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use subqueries?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use async/await?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is Git stash?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to create a pull request?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use async/await?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to deep clone an object?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the GIL in Python?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between INNER and OUTER JOIN?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to prevent SQL injection?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use arrow functions?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between INNER and OUTER JOIN?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are Git hooks?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are stored procedures?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the GIL in Python?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between INNER and OUTER JOIN?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are Python decorators?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to prevent SQL injection?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are JavaScript modules?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is a transaction?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to manipulate the DOM?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between merge and rebase?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the this keyword?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are Python decorators?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is normalization?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to resolve merge conflicts?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is a transaction?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are promises in JavaScript?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to clone a repository?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to optimize SQL queries?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use GROUP BY?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between INNER and OUTER JOIN?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to create a pull request?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between merge and rebase?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to resolve merge conflicts?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to create a virtual environment?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between list and tuple?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How do I sort a dictionary by value?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use GROUP BY?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is Git stash?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between list and tuple?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between == and is?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to prevent SQL injection?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are promises in JavaScript?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between list and tuple?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is normalization?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to prevent SQL injection?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use list comprehensions?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to read a file line by line?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are Python decorators?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the this keyword?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are database indexes?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to create a pull request?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between pull and fetch?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to create a virtual environment?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is normalization?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use arrow functions?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between merge and rebase?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use list comprehensions?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between list and tuple?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How do I sort a dictionary by value?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is event delegation?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is normalization?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to manipulate the DOM?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to deep clone an object?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are Python generators?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use arrow functions?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use subqueries?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use GROUP BY?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are promises in JavaScript?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to read a file line by line?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between let and var?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to resolve merge conflicts?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is Git stash?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are Python generators?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to undo the last commit?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to handle exceptions in Python?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the this keyword?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to create a virtual environment?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the this keyword?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between merge and rebase?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to handle exceptions in Python?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is event delegation?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to clone a repository?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is a Git branch?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to resolve merge conflicts?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are Python generators?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are stored procedures?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is Git stash?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are database indexes?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between INNER and OUTER JOIN?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are Python decorators?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between == and is?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How do closures work in JavaScript?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use async/await?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use async/await?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to read a file line by line?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to create a pull request?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are JavaScript modules?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the GIL in Python?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to optimize SQL queries?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are Git hooks?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to handle exceptions in Python?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use GROUP BY?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are JavaScript modules?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between == and is?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is event delegation?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between merge and rebase?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between let and var?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between INNER and OUTER JOIN?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use arrow functions?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between let and var?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use async/await?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between list and tuple?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are JavaScript modules?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between INNER and OUTER JOIN?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between INNER and OUTER JOIN?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to deep clone an object?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between let and var?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are JavaScript modules?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between let and var?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are Python generators?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are stored procedures?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How do closures work in JavaScript?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the GIL in Python?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to optimize SQL queries?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are JavaScript modules?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to clone a repository?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to create a pull request?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use async/await?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to deep clone an object?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to handle exceptions in Python?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are JavaScript modules?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are database indexes?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are Git hooks?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to view commit history?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are JavaScript modules?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are JavaScript modules?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the GIL in Python?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between merge and rebase?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to undo the last commit?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the this keyword?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are stored procedures?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is a transaction?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to handle exceptions in Python?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use GROUP BY?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to deep clone an object?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between pull and fetch?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How do closures work in JavaScript?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How do closures work in JavaScript?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is Git stash?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are stored procedures?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is Git stash?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are Git hooks?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use arrow functions?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are stored procedures?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between INNER and OUTER JOIN?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between merge and rebase?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use GROUP BY?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is a transaction?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to create a virtual environment?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to manipulate the DOM?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are JavaScript modules?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How do closures work in JavaScript?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to resolve merge conflicts?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to resolve merge conflicts?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to create a pull request?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to undo the last commit?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are stored procedures?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between == and is?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to resolve merge conflicts?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to optimize SQL queries?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to clone a repository?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How do I sort a dictionary by value?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How do I sort a dictionary by value?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are stored procedures?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to optimize SQL queries?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use subqueries?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are JavaScript modules?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to clone a repository?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are promises in JavaScript?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is event delegation?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to view commit history?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use GROUP BY?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the GIL in Python?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How do I sort a dictionary by value?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to manipulate the DOM?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is a transaction?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is a transaction?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between pull and fetch?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between == and is?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How do I sort a dictionary by value?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use async/await?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are database indexes?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are Git hooks?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is normalization?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use async/await?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is a transaction?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is Git stash?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to handle exceptions in Python?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between INNER and OUTER JOIN?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use arrow functions?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are promises in JavaScript?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the GIL in Python?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are Python generators?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use subqueries?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use async/await?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to manipulate the DOM?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between INNER and OUTER JOIN?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is Git stash?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are database indexes?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use list comprehensions?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are stored procedures?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between pull and fetch?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use GROUP BY?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use async/await?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use GROUP BY?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are Python generators?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are promises in JavaScript?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are stored procedures?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use async/await?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are Python decorators?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use list comprehensions?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use arrow functions?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to read a file line by line?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is normalization?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are Python generators?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is normalization?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to clone a repository?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to prevent SQL injection?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to resolve merge conflicts?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use arrow functions?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How do I sort a dictionary by value?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the this keyword?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use list comprehensions?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to create a pull request?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to create a virtual environment?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How do I sort a dictionary by value?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are promises in JavaScript?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use GROUP BY?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is event delegation?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to create a virtual environment?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use list comprehensions?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use list comprehensions?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use subqueries?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between pull and fetch?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use arrow functions?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use GROUP BY?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use subqueries?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to read a file line by line?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are Python generators?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are promises in JavaScript?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between list and tuple?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to resolve merge conflicts?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are promises in JavaScript?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are stored procedures?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to resolve merge conflicts?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the GIL in Python?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to view commit history?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the this keyword?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to manipulate the DOM?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is event delegation?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between INNER and OUTER JOIN?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the this keyword?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are Git hooks?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between == and is?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use GROUP BY?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to prevent SQL injection?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between pull and fetch?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is Git stash?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to read a file line by line?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is Git stash?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is event delegation?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use list comprehensions?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are Python generators?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between pull and fetch?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How do I sort a dictionary by value?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use arrow functions?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between INNER and OUTER JOIN?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between let and var?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are Python generators?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is event delegation?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to undo the last commit?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are Git hooks?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to deep clone an object?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is normalization?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use arrow functions?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to optimize SQL queries?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to resolve merge conflicts?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to create a pull request?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to optimize SQL queries?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are stored procedures?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to optimize SQL queries?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is normalization?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are Git hooks?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the GIL in Python?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are JavaScript modules?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between merge and rebase?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to read a file line by line?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are promises in JavaScript?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to optimize SQL queries?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to handle exceptions in Python?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are stored procedures?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to optimize SQL queries?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to deep clone an object?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between pull and fetch?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the this keyword?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use async/await?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to create a virtual environment?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are JavaScript modules?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to handle exceptions in Python?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to read a file line by line?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are Python generators?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use subqueries?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to resolve merge conflicts?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to view commit history?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use subqueries?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are Python decorators?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to optimize SQL queries?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the GIL in Python?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is normalization?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How do closures work in JavaScript?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between merge and rebase?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the this keyword?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between list and tuple?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use arrow functions?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between == and is?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to clone a repository?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is a Git branch?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between == and is?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to prevent SQL injection?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to resolve merge conflicts?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is normalization?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to write a JOIN query?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use list comprehensions?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between let and var?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are JavaScript modules?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to handle exceptions in Python?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to write a JOIN query?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to create a virtual environment?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between list and tuple?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is normalization?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to view commit history?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the this keyword?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to clone a repository?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to optimize SQL queries?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to resolve merge conflicts?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use async/await?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is event delegation?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is Git stash?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are promises in JavaScript?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use GROUP BY?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are JavaScript modules?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are Git hooks?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use subqueries?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to optimize SQL queries?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are promises in JavaScript?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between list and tuple?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are stored procedures?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are JavaScript modules?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are Git hooks?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to manipulate the DOM?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the GIL in Python?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to clone a repository?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to resolve merge conflicts?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between == and is?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to create a virtual environment?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are Python decorators?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to optimize SQL queries?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are Python decorators?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between == and is?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use async/await?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is a Git branch?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to create a pull request?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How do I sort a dictionary by value?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are Python generators?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How do I sort a dictionary by value?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is Git stash?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to write a JOIN query?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to view commit history?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is event delegation?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between INNER and OUTER JOIN?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How do closures work in JavaScript?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between list and tuple?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to write a JOIN query?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the GIL in Python?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are database indexes?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are Python generators?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to create a virtual environment?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is Git stash?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is normalization?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How do closures work in JavaScript?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between merge and rebase?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the GIL in Python?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to manipulate the DOM?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to resolve merge conflicts?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How do I sort a dictionary by value?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is Git stash?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is normalization?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to optimize SQL queries?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use subqueries?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are database indexes?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to create a pull request?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the this keyword?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to deep clone an object?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to clone a repository?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are Python generators?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use GROUP BY?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the GIL in Python?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between INNER and OUTER JOIN?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between pull and fetch?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to optimize SQL queries?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are Python generators?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are Python decorators?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to create a pull request?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are JavaScript modules?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to undo the last commit?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are Git hooks?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are stored procedures?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use async/await?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is event delegation?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is Git stash?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are Python decorators?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to view commit history?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between merge and rebase?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to view commit history?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are promises in JavaScript?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are Python generators?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between pull and fetch?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between == and is?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use async/await?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to write a JOIN query?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to optimize SQL queries?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to create a pull request?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to manipulate the DOM?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use subqueries?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use GROUP BY?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to optimize SQL queries?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to write a JOIN query?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between pull and fetch?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use list comprehensions?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to manipulate the DOM?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to resolve merge conflicts?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to create a virtual environment?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are stored procedures?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are stored procedures?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use GROUP BY?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to undo the last commit?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are Python decorators?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are JavaScript modules?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are Python generators?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are database indexes?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are Git hooks?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the this keyword?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to clone a repository?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is normalization?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to resolve merge conflicts?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How do I sort a dictionary by value?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between INNER and OUTER JOIN?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to write a JOIN query?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use subqueries?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are Python decorators?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use subqueries?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use arrow functions?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are Git hooks?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is Git stash?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to clone a repository?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is Git stash?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is event delegation?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are promises in JavaScript?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are database indexes?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between let and var?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to view commit history?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the GIL in Python?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is a transaction?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between let and var?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to resolve merge conflicts?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between let and var?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use GROUP BY?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is normalization?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use arrow functions?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How do I sort a dictionary by value?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to view commit history?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the this keyword?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between let and var?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to view commit history?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use list comprehensions?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to resolve merge conflicts?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is a Git branch?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to use arrow functions?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is event delegation?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What are stored procedures?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "What is the difference between pull and fetch?",
+    "topic": "unknown",
+    "answer": ""
+  },
+  {
+    "question": "How to optimize SQL queries?",
+    "topic": "unknown",
+    "answer": ""
+  }
+]

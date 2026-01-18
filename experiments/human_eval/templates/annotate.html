@@ -1,0 +1,222 @@
+{% extends "base.html" %}
+
+{% block title %}Annotate - Human Evaluation{% endblock %}
+
+{% block content %}
+<div class="card">
+    <h2>Annotation Task</h2>
+    <p>Please rate the response below on 5 criteria using the Likert scales.</p>
+    
+    <div class="query-box">
+        <strong>Query:</strong><br>
+        {{ query.query_text }}
+    </div>
+    
+    <div class="response-box">
+        <strong>System: {{ query.system_name }}</strong><br>
+        <strong>Response:</strong><br>
+        {{ query.response_text }}
+    </div>
+    
+    <form id="annotationForm">
+        <input type="hidden" name="query_id" value="{{ query.query_id }}">
+        <input type="hidden" name="system_name" value="{{ query.system_name }}">
+        <input type="hidden" name="query_text" value="{{ query.query_text }}">
+        <input type="hidden" name="response_text" value="{{ query.response_text }}">
+        
+        <!-- Factuality -->
+        <div class="form-group">
+            <label><strong>1. Factuality</strong> - Is the response factually correct?</label>
+            <div class="likert-scale">
+                <div class="likert-option">
+                    <input type="radio" name="factuality" value="1" id="fact_1" required>
+                    <label for="fact_1">1<br>Very Incorrect</label>
+                </div>
+                <div class="likert-option">
+                    <input type="radio" name="factuality" value="2" id="fact_2" required>
+                    <label for="fact_2">2<br>Incorrect</label>
+                </div>
+                <div class="likert-option">
+                    <input type="radio" name="factuality" value="3" id="fact_3" required>
+                    <label for="fact_3">3<br>Neutral</label>
+                </div>
+                <div class="likert-option">
+                    <input type="radio" name="factuality" value="4" id="fact_4" required>
+                    <label for="fact_4">4<br>Correct</label>
+                </div>
+                <div class="likert-option">
+                    <input type="radio" name="factuality" value="5" id="fact_5" required>
+                    <label for="fact_5">5<br>Very Correct</label>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Relevance -->
+        <div class="form-group">
+            <label><strong>2. Relevance</strong> - Does the response address the query?</label>
+            <div class="likert-scale">
+                <div class="likert-option">
+                    <input type="radio" name="relevance" value="1" id="rel_1" required>
+                    <label for="rel_1">1<br>Not Relevant</label>
+                </div>
+                <div class="likert-option">
+                    <input type="radio" name="relevance" value="2" id="rel_2" required>
+                    <label for="rel_2">2<br>Somewhat Relevant</label>
+                </div>
+                <div class="likert-option">
+                    <input type="radio" name="relevance" value="3" id="rel_3" required>
+                    <label for="rel_3">3<br>Neutral</label>
+                </div>
+                <div class="likert-option">
+                    <input type="radio" name="relevance" value="4" id="rel_4" required>
+                    <label for="rel_4">4<br>Relevant</label>
+                </div>
+                <div class="likert-option">
+                    <input type="radio" name="relevance" value="5" id="rel_5" required>
+                    <label for="rel_5">5<br>Very Relevant</label>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Completeness -->
+        <div class="form-group">
+            <label><strong>3. Completeness</strong> - Does the response fully answer the query?</label>
+            <div class="likert-scale">
+                <div class="likert-option">
+                    <input type="radio" name="completeness" value="1" id="comp_1" required>
+                    <label for="comp_1">1<br>Incomplete</label>
+                </div>
+                <div class="likert-option">
+                    <input type="radio" name="completeness" value="2" id="comp_2" required>
+                    <label for="comp_2">2<br>Somewhat Complete</label>
+                </div>
+                <div class="likert-option">
+                    <input type="radio" name="completeness" value="3" id="comp_3" required>
+                    <label for="comp_3">3<br>Neutral</label>
+                </div>
+                <div class="likert-option">
+                    <input type="radio" name="completeness" value="4" id="comp_4" required>
+                    <label for="comp_4">4<br>Complete</label>
+                </div>
+                <div class="likert-option">
+                    <input type="radio" name="completeness" value="5" id="comp_5" required>
+                    <label for="comp_5">5<br>Very Complete</label>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Fluency -->
+        <div class="form-group">
+            <label><strong>4. Fluency</strong> - Is the response well-written and fluent?</label>
+            <div class="likert-scale">
+                <div class="likert-option">
+                    <input type="radio" name="fluency" value="1" id="flu_1" required>
+                    <label for="flu_1">1<br>Not Fluent</label>
+                </div>
+                <div class="likert-option">
+                    <input type="radio" name="fluency" value="2" id="flu_2" required>
+                    <label for="flu_2">2<br>Somewhat Fluent</label>
+                </div>
+                <div class="likert-option">
+                    <input type="radio" name="fluency" value="3" id="flu_3" required>
+                    <label for="flu_3">3<br>Neutral</label>
+                </div>
+                <div class="likert-option">
+                    <input type="radio" name="fluency" value="4" id="flu_4" required>
+                    <label for="flu_4">4<br>Fluent</label>
+                </div>
+                <div class="likert-option">
+                    <input type="radio" name="fluency" value="5" id="flu_5" required>
+                    <label for="flu_5">5<br>Very Fluent</label>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Safety -->
+        <div class="form-group">
+            <label><strong>5. Safety</strong> - Is the response safe and appropriate?</label>
+            <div class="likert-scale">
+                <div class="likert-option">
+                    <input type="radio" name="safety" value="1" id="safe_1" required>
+                    <label for="safe_1">1<br>Unsafe</label>
+                </div>
+                <div class="likert-option">
+                    <input type="radio" name="safety" value="2" id="safe_2" required>
+                    <label for="safe_2">2<br>Somewhat Unsafe</label>
+                </div>
+                <div class="likert-option">
+                    <input type="radio" name="safety" value="3" id="safe_3" required>
+                    <label for="safe_3">3<br>Neutral</label>
+                </div>
+                <div class="likert-option">
+                    <input type="radio" name="safety" value="4" id="safe_4" required>
+                    <label for="safe_4">4<br>Safe</label>
+                </div>
+                <div class="likert-option">
+                    <input type="radio" name="safety" value="5" id="safe_5" required>
+                    <label for="safe_5">5<br>Very Safe</label>
+                </div>
+            </div>
+        </div>
+        
+        <div class="form-group">
+            <label for="comments">Additional Comments (Optional)</label>
+            <textarea id="comments" name="comments" placeholder="Any additional observations or notes..."></textarea>
+        </div>
+        
+        <button type="submit">Submit Annotation</button>
+    </form>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+document.getElementById('annotationForm').addEventListener('submit', async function(e) {
+    e.preventDefault();
+    
+    const formData = new FormData(this);
+    const data = {};
+    formData.forEach((value, key) => {
+        data[key] = value;
+    });
+    
+    const submitBtn = this.querySelector('button[type="submit"]');
+    submitBtn.disabled = true;
+    submitBtn.textContent = 'Submitting...';
+    
+    try {
+        const response = await fetch('/submit_annotation', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(data)
+        });
+        
+        const result = await response.json();
+        
+        if (result.success) {
+            // Get next query
+            const nextQuery = await fetch('/get_next_query');
+            const next = await nextQuery.json();
+            
+            if (next.complete) {
+                window.location.href = '/complete';
+            } else {
+                // Reload page with next query
+                window.location.reload();
+            }
+        } else {
+            alert('Error: ' + (result.error || 'Failed to submit annotation'));
+            submitBtn.disabled = false;
+            submitBtn.textContent = 'Submit Annotation';
+        }
+    } catch (error) {
+        alert('Error: ' + error.message);
+        submitBtn.disabled = false;
+        submitBtn.textContent = 'Submit Annotation';
+    }
+});
+</script>
+{% endblock %}
+
