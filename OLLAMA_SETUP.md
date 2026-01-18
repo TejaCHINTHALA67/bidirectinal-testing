@@ -49,9 +49,15 @@ python main.py --llm_model llama3 --corpus_type sparse --systems standard_rag bi
 ### Step E: Run Experiments (Background Mode)
 **Crucial:** Run this way so it keeps running if your internet disconnects.
 
-```bash
-nohup ./scripts/run_ieee_experiments.sh > experiment_log.txt 2>&1 &
-```
+1. **Make the script executable:**
+   ```bash
+   chmod +x scripts/run_ieee_experiments.sh
+   ```
+
+2. **Run with nohup:**
+   ```bash
+   nohup ./scripts/run_ieee_experiments.sh > experiment_log.txt 2>&1 &
+   ```
 
 ## 3. Monitor Progress
 Since it's running in the background, use this command to check the output:

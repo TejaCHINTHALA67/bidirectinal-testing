@@ -5,8 +5,8 @@
 
 set -e
 
-# Activate virtual environment
-source venv/bin/activate
+# Activate virtual environment (Not needed on Vast.ai if using global env)
+# source venv/bin/activate
 
 echo "=============================================="
 echo "IEEE Access Publication Experiments"
