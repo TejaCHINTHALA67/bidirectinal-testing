@@ -87,3 +87,11 @@ Since you are using `nohup`, the experiment keeps running even if you leave.
 2. Paste it into your Windows PowerShell.
 3. Once connected, run: `tail -f experiment_log.txt`
 
+## 5. How to Stop (Kill) the Experiment
+If you need to stop it for any reason (restart, error, or done):
+
+```bash
+pkill -f python
+```
+*This instantly stops all running experiments.*
+

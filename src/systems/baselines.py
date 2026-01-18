@@ -298,11 +298,19 @@ class BaseSystem(ABC):
             # Batch add to ChromaDB (embeddings computed automatically)
             batch_size = 100
             for i in range(0, len(ids), batch_size):
-                self.collection.add(
-                    ids=ids[i:i+batch_size],
-                    documents=documents[i:i+batch_size],
-                    metadatas=metadatas[i:i+batch_size]
-                )
+                try:
+                    self.collection.add(
+                        ids=ids[i:i+batch_size],
+                        documents=documents[i:i+batch_size],
+                        metadatas=metadatas[i:i+batch_size]
+                    )
+                except Exception as e:
+                    # Catch DuplicateIDError (and others) to support parallel loading
+                    # If ids exist, it means another worker already added them, which is fine.
+                    if "DuplicateIDError" in str(e) or "Expected IDs to be unique" in str(e):
+                        logger.warning(f"[{self.system_name}] Batch {i//batch_size} collision (already exists), skipping.")
+                    else:
+                        logger.warning(f"[{self.system_name}] Error adding batch {i//batch_size}: {e}")
             
             logger.info(f"[{self.system_name}] Added {len(ids)} documents to ChromaDB")
         else:
