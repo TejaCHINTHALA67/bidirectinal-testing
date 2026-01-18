@@ -445,13 +445,33 @@ Answer:"""
                 model_name = 'models/gemini-2.5-flash-preview-09-2025'
             model = genai.GenerativeModel(model_name)
             
-            # Generate response
+            # Generate response with safety settings to avoid 'finish_reason 2' blocks
+            safety_settings = [
+                {
+                    "category": "HARM_CATEGORY_HARASSMENT",
+                    "threshold": "BLOCK_NONE"
+                },
+                {
+                    "category": "HARM_CATEGORY_HATE_SPEECH",
+                    "threshold": "BLOCK_NONE"
+                },
+                {
+                    "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+                    "threshold": "BLOCK_NONE"
+                },
+                {
+                    "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+                    "threshold": "BLOCK_NONE"
+                }
+            ]
+
             response = model.generate_content(
                 prompt,
                 generation_config=genai.types.GenerationConfig(
                     temperature=0.3,
                     max_output_tokens=512,
-                )
+                ),
+                safety_settings=safety_settings
             )
             
             return response.text.strip()
