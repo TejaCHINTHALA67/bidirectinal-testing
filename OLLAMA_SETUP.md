@@ -39,14 +39,27 @@ ollama pull llama3
 ```
 *Wait for the download to complete (100%).*
 
-### Step D: Run Experiments 
-This script will now run 480 experiments (20 seeds x 6 systems x 4 datasets) using the local model.
+### Step D: Verification (Smoke Test)
+**Highly Recommended:** Run this check to verify everything works before the main event.
 ```bash
-./scripts/run_ieee_experiments.sh
+python main.py --llm_model llama3 --corpus_type sparse --systems standard_rag bidirectional_rag --seeds 42 --num_queries 10 --max_workers 1
+```
+*If this finishes successfully (takes ~1-2 mins), proceed to Step E.*
+
+### Step E: Run Experiments (Background Mode)
+**Crucial:** Run this way so it keeps running if your internet disconnects.
+
+```bash
+nohup ./scripts/run_ieee_experiments.sh > experiment_log.txt 2>&1 &
 ```
 
 ## 3. Monitor Progress
-You can see the progress bars in the terminal.
-- **Estimated Time:** 2-5 hours (depending on GPU speed).
+Since it's running in the background, use this command to check the output:
+```bash
+tail -f experiment_log.txt
+```
+*(Press `Ctrl+C` to stop watching the log—the experiment will keep running.)*
+
+- **Estimated Time:** 2-5 hours.
 - **Results:** Saved automatically to `results/ieee_access_final`.
-- **Logs:** If it freezes, check `ollama.log` using `tail -f ollama.log`.
+- **Verify Running:** Type `top` or `ps aux | grep python` to see it working.
