@@ -63,3 +63,21 @@ tail -f experiment_log.txt
 - **Estimated Time:** 2-5 hours.
 - **Results:** Saved automatically to `results/ieee_access_final`.
 - **Verify Running:** Type `top` or `ps aux | grep python` to see it working.
+
+## 4. How to Check Progress Later (Reconnect)
+Since you are using `nohup`, the experiment keeps running even if you leave.
+
+### Method A: The Easy Way (Browser)
+1. Go back to your [Vast.ai Console](https://cloud.vast.ai/instances/).
+2. Click the **Open** button (Jupyter) again.
+3. Open a **New Terminal**.
+4. Type this command to see the live logs:
+   ```bash
+   tail -f experiment_log.txt
+   ```
+
+### Method B: The "Pro" Way (SSH)
+1. On Vast.ai config, copy the SSH command (e.g., `ssh -p 12345 root@1.2.3.4`).
+2. Paste it into your Windows PowerShell.
+3. Once connected, run: `tail -f experiment_log.txt`
+
