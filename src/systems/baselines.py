@@ -382,18 +382,30 @@ Instructions:
 
 Answer:"""
             
-            # Call Ollama
-            response = ollama.generate(
-                model=self.llm_model,
-                prompt=prompt,
-                options={
-                    'temperature': 0.3,
-                    'top_p': 0.9,
-                    'max_tokens': 512
-                }
-            )
+            # Call Ollama with retries
+            import time
+            import random
             
-            return response['response'].strip()
+            max_retries = 5
+            for attempt in range(max_retries):
+                try:
+                    response = ollama.generate(
+                        model=self.llm_model,
+                        prompt=prompt,
+                        options={
+                            'temperature': 0.3,
+                            'top_p': 0.9,
+                            'max_tokens': 512
+                        }
+                    )
+                    return response['response'].strip()
+                except Exception as e:
+                    if attempt < max_retries - 1:
+                        wait_time = random.uniform(1, 5) * (attempt + 1)
+                        logger.warning(f"[{self.system_name}] Ollama connection failed (Attempt {attempt+1}/{max_retries}): {e}. Retrying in {wait_time:.1f}s...")
+                        time.sleep(wait_time)
+                    else:
+                        raise e  # Raise the final exception to be caught by the outer try/except
             
         except Exception as e:
             logger.error(f"[{self.system_name}] Ollama generation failed: {e}")
