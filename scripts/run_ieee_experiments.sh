@@ -27,8 +27,9 @@ echo ""
 # Start time
 START_TIME=$(date +%s)
 
-# Run experiments
+# Run experiments (Ollama Llama 3 8B)
 python main.py \
+    --llm_model llama3 \
     --corpus_type realistic \
     --systems all \
     --seeds 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 \

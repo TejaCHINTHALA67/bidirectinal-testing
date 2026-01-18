@@ -463,10 +463,17 @@ Answer:"""
                 safety_settings=safety_settings
             )
             
-            return response.text.strip()
+            try:
+                return response.text.strip()
+            except ValueError:
+                # If blocked by safety, log the detailed feedback
+                logger.error(f"[{self.system_name}] Gemini Safety Block: {response.prompt_feedback}")
+                return ""
             
         except Exception as e:
             logger.error(f"[{self.system_name}] Gemini generation failed: {e}")
+            if hasattr(e, 'response') and hasattr(e.response, 'prompt_feedback'):
+                logger.error(f"[{self.system_name}] Feedback: {e.response.prompt_feedback}")
             return f"Based on the provided context: {context[0][:200] if context else 'No context available'}... [{retrieved_ids[0] if retrieved_ids else 'unknown'}]"
     
     def _generate(self, query: str, context: List[str], retrieved_ids: List[str], experience_logs: Optional[List[Dict]] = None) -> str:
